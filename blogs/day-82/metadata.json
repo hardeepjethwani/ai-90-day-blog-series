@@ -16,10 +16,12 @@
   "canonical_platform": "Hashnode",
   "linkedin_post_angle": "Day 82 of 90 Days of AI: AI and BI Dashboards: Asking Data Questions in Plain English. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
   "assets": [
+    "assets/cover.png",
     "assets/hero.png",
     "assets/concept-flow.png"
   ],
   "examples": [
     "examples/simple_analysis.py"
-  ]
+  ],
+  "cover_image": "assets/cover.png"
 }

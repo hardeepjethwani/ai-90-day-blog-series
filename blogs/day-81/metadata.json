@@ -17,10 +17,12 @@
   "canonical_platform": "Hashnode",
   "linkedin_post_angle": "Day 81 of 90 Days of AI: AI for Data Analysis: From CSV Chaos to Useful Insight. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
   "assets": [
+    "assets/cover.png",
     "assets/hero.png",
     "assets/concept-flow.png"
   ],
   "examples": [
     "examples/simple_analysis.py"
-  ]
+  ],
+  "cover_image": "assets/cover.png"
 }

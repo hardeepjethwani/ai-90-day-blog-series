@@ -16,10 +16,12 @@
   "canonical_platform": "Hashnode",
   "linkedin_post_angle": "Day 84 of 90 Days of AI: AI Agents for Enterprises: Why Legacy Systems Are the Real Boss Fight. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
   "assets": [
+    "assets/cover.png",
     "assets/hero.png",
     "assets/concept-flow.png"
   ],
   "examples": [
     "examples/practical_checklist.md"
-  ]
+  ],
+  "cover_image": "assets/cover.png"
 }

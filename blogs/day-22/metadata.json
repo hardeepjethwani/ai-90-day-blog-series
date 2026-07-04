@@ -16,10 +16,12 @@
   "canonical_platform": "Hashnode",
   "linkedin_post_angle": "Day 22 of 90 Days of AI: How to Use AI for Debugging Without Making the Bug Wear a Hat. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
   "assets": [
+    "assets/cover.png",
     "assets/hero.png",
     "assets/concept-flow.png"
   ],
   "examples": [
     "examples/ai_workflow_checklist.py"
-  ]
+  ],
+  "cover_image": "assets/cover.png"
 }

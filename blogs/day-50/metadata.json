@@ -17,10 +17,12 @@
   "canonical_platform": "Hashnode",
   "linkedin_post_angle": "Day 50 of 90 Days of AI: AI in Healthcare: Promise, Paperwork, and Very Necessary Guardrails. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
   "assets": [
+    "assets/cover.png",
     "assets/hero.png",
     "assets/concept-flow.png"
   ],
   "examples": [
     "examples/practical_checklist.md"
-  ]
+  ],
+  "cover_image": "assets/cover.png"
 }

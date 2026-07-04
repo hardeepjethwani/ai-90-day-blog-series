@@ -20,6 +20,7 @@
   "canonical_platform": "Hashnode",
   "linkedin_post_angle": "Most people explain LLMs like they are trying to win a jargon marathon. Here is the practical version: tokens in, probabilities out, useful workflows around it.",
   "assets": [
+    "assets/cover.png",
     "assets/hero-llm-builder.png",
     "assets/tokenization-flow.png",
     "assets/next-token-loop.png",
@@ -29,5 +30,6 @@
   "examples": [
     "examples/tokenizer_demo.py",
     "examples/mini_next_token_predictor.py"
-  ]
+  ],
+  "cover_image": "assets/cover.png"
 }
