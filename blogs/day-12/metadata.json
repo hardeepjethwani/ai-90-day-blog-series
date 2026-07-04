@@ -1,0 +1,25 @@
+{
+  "day": 12,
+  "title": "AI Agents vs AI Assistants: The Difference That Actually Matters",
+  "slug": "ai-agents-vs-ai-assistants-the-difference-that-actually-matters",
+  "series": "90 Days of AI",
+  "category": "Agentic AI",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "AI Agents vs AI Assistants: The Difference That Actually Matters",
+  "meta_description": "Compare assistants that respond with agents that complete multi-step work.",
+  "keywords": [
+    "AI assistant",
+    "AI agent",
+    "agentic workflows"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 12 of 90 Days of AI: AI Agents vs AI Assistants: The Difference That Actually Matters. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "day": 85,
+  "title": "Enterprise AI Buying Guide: Do You Need a Tool, Platform, or Therapist?",
+  "slug": "enterprise-ai-buying-guide-do-you-need-a-tool-platform-or-therapist",
+  "series": "90 Days of AI",
+  "category": "Enterprise AI",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "Enterprise AI Buying Guide: Do You Need a Tool, Platform, or Therapist?",
+  "meta_description": "Help choose between point tools, platforms, custom builds, and workflow automation.",
+  "keywords": [
+    "enterprise AI tools",
+    "AI platform",
+    "agentic AI tools",
+    "AI buying guide"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 85 of 90 Days of AI: Enterprise AI Buying Guide: Do You Need a Tool, Platform, or Therapist?. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

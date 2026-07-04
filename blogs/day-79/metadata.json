@@ -1,0 +1,25 @@
+{
+  "day": 79,
+  "title": "Personal AI Assistants: The Dream, the Reality, and the Notification Problem",
+  "slug": "personal-ai-assistants-the-dream-the-reality-and-the-notification-problem",
+  "series": "90 Days of AI",
+  "category": "Future of Work",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "Personal AI Assistants: The Dream, the Reality, and the Notification Problem",
+  "meta_description": "Discuss personal agents for email, calendar, research, shopping, and boundaries.",
+  "keywords": [
+    "personal AI assistant",
+    "AI agents",
+    "productivity AI"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 79 of 90 Days of AI: Personal AI Assistants: The Dream, the Reality, and the Notification Problem. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "day": 52,
+  "title": "AI in Cybersecurity: Defender, Attacker, and the Weird Arms Race",
+  "slug": "ai-in-cybersecurity-defender-attacker-and-the-weird-arms-race",
+  "series": "90 Days of AI",
+  "category": "AI Security",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "AI in Cybersecurity: Defender, Attacker, and the Weird Arms Race",
+  "meta_description": "Explore AI for threat detection, phishing, SOC workflows, malware analysis, and adversarial use.",
+  "keywords": [
+    "AI cybersecurity",
+    "AI security",
+    "threat detection",
+    "SOC AI"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 52 of 90 Days of AI: AI in Cybersecurity: Defender, Attacker, and the Weird Arms Race. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

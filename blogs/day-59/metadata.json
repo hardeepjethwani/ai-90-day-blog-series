@@ -1,0 +1,26 @@
+{
+  "day": 59,
+  "title": "Copyright and AI Training Data: The Internet's Messiest Group Project",
+  "slug": "copyright-and-ai-training-data-the-internet-s-messiest-group-project",
+  "series": "90 Days of AI",
+  "category": "AI Governance",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "Copyright and AI Training Data: The Internet's Messiest Group Project",
+  "meta_description": "Explain licensing, datasets, creator rights, synthetic content, and enterprise concerns.",
+  "keywords": [
+    "AI copyright",
+    "training data",
+    "AI licensing",
+    "synthetic content"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 59 of 90 Days of AI: Copyright and AI Training Data: The Internet's Messiest Group Project. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

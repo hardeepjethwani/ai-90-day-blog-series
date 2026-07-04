@@ -1,0 +1,26 @@
+{
+  "day": 83,
+  "title": "AI Data Readiness: Your Model Is Only as Good as Your Messy Database",
+  "slug": "ai-data-readiness-your-model-is-only-as-good-as-your-messy-database",
+  "series": "90 Days of AI",
+  "category": "Data and AI",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "AI Data Readiness: Your Model Is Only as Good as Your Messy Database",
+  "meta_description": "Discuss data quality, access, metadata, governance, chunking, labeling, and ownership.",
+  "keywords": [
+    "AI data readiness",
+    "data quality",
+    "enterprise AI",
+    "AI strategy"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 83 of 90 Days of AI: AI Data Readiness: Your Model Is Only as Good as Your Messy Database. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/simple_analysis.py"
+  ]
+}

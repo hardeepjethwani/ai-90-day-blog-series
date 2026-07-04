@@ -1,0 +1,26 @@
+{
+  "day": 36,
+  "title": "Real-Time Voice Agents: The Call Center Is Getting a Brain Upgrade",
+  "slug": "real-time-voice-agents-the-call-center-is-getting-a-brain-upgrade",
+  "series": "90 Days of AI",
+  "category": "AI Tools",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "Real-Time Voice Agents: The Call Center Is Getting a Brain Upgrade",
+  "meta_description": "Explain voice agents, speech-to-text, latency, tool calls, escalation, and QA.",
+  "keywords": [
+    "voice agents",
+    "AI call center",
+    "real-time AI",
+    "speech AI"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 36 of 90 Days of AI: Real-Time Voice Agents: The Call Center Is Getting a Brain Upgrade. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "day": 82,
+  "title": "AI and BI Dashboards: Asking Data Questions in Plain English",
+  "slug": "ai-and-bi-dashboards-asking-data-questions-in-plain-english",
+  "series": "90 Days of AI",
+  "category": "Data and AI",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "AI and BI Dashboards: Asking Data Questions in Plain English",
+  "meta_description": "Cover natural language analytics, metric definitions, semantic layers, and trust.",
+  "keywords": [
+    "AI BI",
+    "natural language analytics",
+    "AI dashboards"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 82 of 90 Days of AI: AI and BI Dashboards: Asking Data Questions in Plain English. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/simple_analysis.py"
+  ]
+}

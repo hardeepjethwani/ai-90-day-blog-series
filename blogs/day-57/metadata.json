@@ -1,0 +1,26 @@
+{
+  "day": 57,
+  "title": "Responsible AI: Bias, Fairness, Transparency, and Other Non-Optional Things",
+  "slug": "responsible-ai-bias-fairness-transparency-and-other-non-optional-things",
+  "series": "90 Days of AI",
+  "category": "AI Governance",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "Responsible AI: Bias, Fairness, Transparency, and Other Non-Optional Things",
+  "meta_description": "Cover fairness, explainability, disclosure, testing, and stakeholder impact.",
+  "keywords": [
+    "responsible AI",
+    "AI fairness",
+    "AI transparency",
+    "AI bias"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 57 of 90 Days of AI: Responsible AI: Bias, Fairness, Transparency, and Other Non-Optional Things. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

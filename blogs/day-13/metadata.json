@@ -1,0 +1,26 @@
+{
+  "day": 13,
+  "title": "The Agent Loop: Plan, Act, Observe, Repeat",
+  "slug": "the-agent-loop-plan-act-observe-repeat",
+  "series": "90 Days of AI",
+  "category": "Agentic AI",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "The Agent Loop: Plan, Act, Observe, Repeat",
+  "meta_description": "Break down the core control loop behind agents with a simple coding/task example.",
+  "keywords": [
+    "agent loop",
+    "AI planning",
+    "tool use",
+    "AI automation"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 13 of 90 Days of AI: The Agent Loop: Plan, Act, Observe, Repeat. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

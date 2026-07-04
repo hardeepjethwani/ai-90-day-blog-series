@@ -1,0 +1,25 @@
+{
+  "day": 54,
+  "title": "Prompt Injection: When Your AI Reads the Wrong Instructions",
+  "slug": "prompt-injection-when-your-ai-reads-the-wrong-instructions",
+  "series": "90 Days of AI",
+  "category": "AI Security",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "Prompt Injection: When Your AI Reads the Wrong Instructions",
+  "meta_description": "Explain prompt injection, data exfiltration, tool misuse, and defenses for RAG/apps.",
+  "keywords": [
+    "prompt injection",
+    "LLM security",
+    "AI app security"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 54 of 90 Days of AI: Prompt Injection: When Your AI Reads the Wrong Instructions. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

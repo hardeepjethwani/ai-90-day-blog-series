@@ -1,0 +1,26 @@
+{
+  "day": 30,
+  "title": "AI Observability: Watching the Model Before It Starts Freelancing",
+  "slug": "ai-observability-watching-the-model-before-it-starts-freelancing",
+  "series": "90 Days of AI",
+  "category": "Production AI",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "AI Observability: Watching the Model Before It Starts Freelancing",
+  "meta_description": "Cover tracing, prompt logs, tool calls, latency, cost, drift, and hallucination monitoring.",
+  "keywords": [
+    "AI observability",
+    "LLM tracing",
+    "agent monitoring",
+    "AI logs"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 30 of 90 Days of AI: AI Observability: Watching the Model Before It Starts Freelancing. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/ai_workflow_checklist.py"
+  ]
+}

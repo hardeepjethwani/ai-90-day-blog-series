@@ -1,0 +1,25 @@
+{
+  "day": 60,
+  "title": "AI Disclosure: When Should You Tell People AI Was Used?",
+  "slug": "ai-disclosure-when-should-you-tell-people-ai-was-used",
+  "series": "90 Days of AI",
+  "category": "AI Governance",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "AI Disclosure: When Should You Tell People AI Was Used?",
+  "meta_description": "Discuss watermarking, transparency labels, synthetic media, customer trust, and platform rules.",
+  "keywords": [
+    "AI disclosure",
+    "AI watermarking",
+    "synthetic media disclosure"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 60 of 90 Days of AI: AI Disclosure: When Should You Tell People AI Was Used?. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

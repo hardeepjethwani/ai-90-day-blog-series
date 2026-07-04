@@ -1,0 +1,26 @@
+{
+  "day": 28,
+  "title": "LLMOps Explained: Shipping AI Features Without Screaming Internally",
+  "slug": "llmops-explained-shipping-ai-features-without-screaming-internally",
+  "series": "90 Days of AI",
+  "category": "Production AI",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "LLMOps Explained: Shipping AI Features Without Screaming Internally",
+  "meta_description": "Cover prompts, evals, datasets, monitoring, versioning, costs, and rollback.",
+  "keywords": [
+    "LLMOps",
+    "AI production",
+    "LLM monitoring",
+    "AI deployment"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 28 of 90 Days of AI: LLMOps Explained: Shipping AI Features Without Screaming Internally. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/ai_workflow_checklist.py"
+  ]
+}

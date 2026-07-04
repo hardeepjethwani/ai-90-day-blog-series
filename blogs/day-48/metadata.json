@@ -1,0 +1,26 @@
+{
+  "day": 48,
+  "title": "AI in Finance Teams: Forecasts, Reconciliation, and Very Serious Spreadsheets",
+  "slug": "ai-in-finance-teams-forecasts-reconciliation-and-very-serious-spreadsheets",
+  "series": "90 Days of AI",
+  "category": "Business AI",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "AI in Finance Teams: Forecasts, Reconciliation, and Very Serious Spreadsheets",
+  "meta_description": "Cover finance copilots, variance analysis, invoice extraction, compliance, and approval workflows.",
+  "keywords": [
+    "AI finance",
+    "finance automation",
+    "AI accounting",
+    "AI spreadsheets"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 48 of 90 Days of AI: AI in Finance Teams: Forecasts, Reconciliation, and Very Serious Spreadsheets. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

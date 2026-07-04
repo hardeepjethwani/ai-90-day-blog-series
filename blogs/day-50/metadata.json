@@ -1,0 +1,26 @@
+{
+  "day": 50,
+  "title": "AI in Healthcare: Promise, Paperwork, and Very Necessary Guardrails",
+  "slug": "ai-in-healthcare-promise-paperwork-and-very-necessary-guardrails",
+  "series": "90 Days of AI",
+  "category": "AI Industries",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "AI in Healthcare: Promise, Paperwork, and Very Necessary Guardrails",
+  "meta_description": "Cover clinical documentation, triage support, imaging, patient communication, and safety.",
+  "keywords": [
+    "AI healthcare",
+    "medical AI",
+    "clinical AI",
+    "AI safety"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 50 of 90 Days of AI: AI in Healthcare: Promise, Paperwork, and Very Necessary Guardrails. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

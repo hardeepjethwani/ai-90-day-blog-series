@@ -1,0 +1,26 @@
+{
+  "day": 25,
+  "title": "Vibe Coding vs Engineering: Where AI Helps and Where It Hurts",
+  "slug": "vibe-coding-vs-engineering-where-ai-helps-and-where-it-hurts",
+  "series": "90 Days of AI",
+  "category": "AI Coding",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "Vibe Coding vs Engineering: Where AI Helps and Where It Hurts",
+  "meta_description": "Explain quick prototyping versus maintainable systems, with guardrails for builders.",
+  "keywords": [
+    "vibe coding",
+    "AI coding",
+    "software engineering",
+    "AI tools"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 25 of 90 Days of AI: Vibe Coding vs Engineering: Where AI Helps and Where It Hurts. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/ai_workflow_checklist.py"
+  ]
+}

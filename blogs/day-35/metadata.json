@@ -1,0 +1,26 @@
+{
+  "day": 35,
+  "title": "AI Music and Voice: Creative Tool or Copyright Headache Generator?",
+  "slug": "ai-music-and-voice-creative-tool-or-copyright-headache-generator",
+  "series": "90 Days of AI",
+  "category": "Generative Media",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "AI Music and Voice: Creative Tool or Copyright Headache Generator?",
+  "meta_description": "Discuss voice cloning, music generation, dubbing, rights, consent, and use cases.",
+  "keywords": [
+    "AI voice",
+    "AI music",
+    "voice cloning",
+    "generative audio"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 35 of 90 Days of AI: AI Music and Voice: Creative Tool or Copyright Headache Generator?. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

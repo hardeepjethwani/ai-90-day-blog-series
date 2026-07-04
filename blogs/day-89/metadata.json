@@ -1,0 +1,26 @@
+{
+  "day": 89,
+  "title": "The Future of AI Interfaces: Chat Is Not the Final Form",
+  "slug": "the-future-of-ai-interfaces-chat-is-not-the-final-form",
+  "series": "90 Days of AI",
+  "category": "Future of AI",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "The Future of AI Interfaces: Chat Is Not the Final Form",
+  "meta_description": "Explore agents, voice, ambient AI, workflow-native AI, multimodal UI, and proactive systems.",
+  "keywords": [
+    "future of AI",
+    "AI interfaces",
+    "ambient AI",
+    "AI UX"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 89 of 90 Days of AI: The Future of AI Interfaces: Chat Is Not the Final Form. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

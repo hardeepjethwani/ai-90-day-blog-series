@@ -1,0 +1,26 @@
+{
+  "day": 65,
+  "title": "Long Context Windows: Bigger Memory or Bigger Mess?",
+  "slug": "long-context-windows-bigger-memory-or-bigger-mess",
+  "series": "90 Days of AI",
+  "category": "AI Models",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "Long Context Windows: Bigger Memory or Bigger Mess?",
+  "meta_description": "Explain long-context models, use cases, attention limits, cost, and retrieval tradeoffs.",
+  "keywords": [
+    "long context",
+    "LLM context window",
+    "RAG",
+    "AI memory"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 65 of 90 Days of AI: Long Context Windows: Bigger Memory or Bigger Mess?. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "day": 61,
+  "title": "Small Language Models: Tiny Models With Big Workplace Energy",
+  "slug": "small-language-models-tiny-models-with-big-workplace-energy",
+  "series": "90 Days of AI",
+  "category": "AI Models",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "Small Language Models: Tiny Models With Big Workplace Energy",
+  "meta_description": "Explain SLMs, cost, latency, privacy, edge deployment, and when smaller is better.",
+  "keywords": [
+    "small language models",
+    "SLM",
+    "on-device AI",
+    "efficient AI"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 61 of 90 Days of AI: Small Language Models: Tiny Models With Big Workplace Energy. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

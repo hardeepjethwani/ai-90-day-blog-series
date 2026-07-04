@@ -1,0 +1,26 @@
+{
+  "day": 32,
+  "title": "Vision-Language Models: When AI Looks at Screenshots and Gets Useful",
+  "slug": "vision-language-models-when-ai-looks-at-screenshots-and-gets-useful",
+  "series": "90 Days of AI",
+  "category": "Multimodal AI",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "Vision-Language Models: When AI Looks at Screenshots and Gets Useful",
+  "meta_description": "Explore image understanding, UI inspection, chart reading, and document extraction.",
+  "keywords": [
+    "vision-language model",
+    "VLM",
+    "AI vision",
+    "image understanding"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 32 of 90 Days of AI: Vision-Language Models: When AI Looks at Screenshots and Gets Useful. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

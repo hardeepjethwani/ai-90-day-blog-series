@@ -1,0 +1,26 @@
+{
+  "day": 38,
+  "title": "AI in Design Tools: From Blank Canvas Panic to First Draft Fast",
+  "slug": "ai-in-design-tools-from-blank-canvas-panic-to-first-draft-fast",
+  "series": "90 Days of AI",
+  "category": "AI Tools",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "AI in Design Tools: From Blank Canvas Panic to First Draft Fast",
+  "meta_description": "Discuss AI for UI design, image editing, layout generation, brand kits, and design review.",
+  "keywords": [
+    "AI design tools",
+    "AI UX",
+    "generative design",
+    "AI creativity"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 38 of 90 Days of AI: AI in Design Tools: From Blank Canvas Panic to First Draft Fast. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

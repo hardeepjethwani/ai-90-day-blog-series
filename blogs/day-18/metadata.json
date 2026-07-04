@@ -1,0 +1,26 @@
+{
+  "day": 18,
+  "title": "Agent-to-Agent Communication: Can AI Systems Talk to Each Other?",
+  "slug": "agent-to-agent-communication-can-ai-systems-talk-to-each-other",
+  "series": "90 Days of AI",
+  "category": "AI Protocols",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "Agent-to-Agent Communication: Can AI Systems Talk to Each Other?",
+  "meta_description": "Cover emerging agent interoperability, handoffs, shared goals, and governance challenges.",
+  "keywords": [
+    "agent-to-agent",
+    "A2A",
+    "AI interoperability",
+    "AI agents"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 18 of 90 Days of AI: Agent-to-Agent Communication: Can AI Systems Talk to Each Other?. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

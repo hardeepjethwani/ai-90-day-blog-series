@@ -1,0 +1,25 @@
+{
+  "day": 39,
+  "title": "AI Presentation Tools: Slides That No Longer Look Like 2008",
+  "slug": "ai-presentation-tools-slides-that-no-longer-look-like-2008",
+  "series": "90 Days of AI",
+  "category": "AI Tools",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "AI Presentation Tools: Slides That No Longer Look Like 2008",
+  "meta_description": "Explore AI-generated decks, research synthesis, visuals, speaker notes, and review workflows.",
+  "keywords": [
+    "AI presentations",
+    "AI slides",
+    "AI productivity tools"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 39 of 90 Days of AI: AI Presentation Tools: Slides That No Longer Look Like 2008. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

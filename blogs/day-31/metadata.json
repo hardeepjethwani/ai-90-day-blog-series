@@ -1,0 +1,25 @@
+{
+  "day": 31,
+  "title": "Multimodal AI: Models That Read, See, Hear, and Occasionally Impress You",
+  "slug": "multimodal-ai-models-that-read-see-hear-and-occasionally-impress-you",
+  "series": "90 Days of AI",
+  "category": "Multimodal AI",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "Multimodal AI: Models That Read, See, Hear, and Occasionally Impress You",
+  "meta_description": "Explain text, image, audio, video, and document understanding in one model workflow.",
+  "keywords": [
+    "multimodal AI",
+    "vision language models",
+    "AI image understanding"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 31 of 90 Days of AI: Multimodal AI: Models That Read, See, Hear, and Occasionally Impress You. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

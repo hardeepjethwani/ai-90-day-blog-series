@@ -1,0 +1,25 @@
+{
+  "day": 11,
+  "title": "What Is Agentic AI? From Chatbots to AI That Takes Action",
+  "slug": "what-is-agentic-ai-from-chatbots-to-ai-that-takes-action",
+  "series": "90 Days of AI",
+  "category": "Agentic AI",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "What Is Agentic AI? From Chatbots to AI That Takes Action",
+  "meta_description": "Define AI agents, planning, tool use, memory, execution, and human oversight.",
+  "keywords": [
+    "agentic AI",
+    "AI agents",
+    "autonomous agents"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 11 of 90 Days of AI: What Is Agentic AI? From Chatbots to AI That Takes Action. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

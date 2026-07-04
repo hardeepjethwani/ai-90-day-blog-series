@@ -1,0 +1,26 @@
+{
+  "day": 64,
+  "title": "The AI Infrastructure Stack: Chips, Memory, Power, and Patience",
+  "slug": "the-ai-infrastructure-stack-chips-memory-power-and-patience",
+  "series": "90 Days of AI",
+  "category": "AI Infrastructure",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "The AI Infrastructure Stack: Chips, Memory, Power, and Patience",
+  "meta_description": "Explain why AI depends on GPUs, memory bandwidth, data centers, energy, and supply chains.",
+  "keywords": [
+    "AI infrastructure",
+    "GPU",
+    "AI data centers",
+    "AI compute"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 64 of 90 Days of AI: The AI Infrastructure Stack: Chips, Memory, Power, and Patience. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

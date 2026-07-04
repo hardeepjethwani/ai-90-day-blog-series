@@ -1,0 +1,26 @@
+{
+  "day": 70,
+  "title": "Open-Source AI Models: Freedom, Flexibility, and Surprise Maintenance",
+  "slug": "open-source-ai-models-freedom-flexibility-and-surprise-maintenance",
+  "series": "90 Days of AI",
+  "category": "AI Models",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "Open-Source AI Models: Freedom, Flexibility, and Surprise Maintenance",
+  "meta_description": "Compare open models and closed APIs for cost, control, privacy, quality, and operations.",
+  "keywords": [
+    "open-source AI",
+    "open models",
+    "LLM deployment",
+    "local AI"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 70 of 90 Days of AI: Open-Source AI Models: Freedom, Flexibility, and Surprise Maintenance. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

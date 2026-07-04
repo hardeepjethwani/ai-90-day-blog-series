@@ -1,0 +1,25 @@
+{
+  "day": 3,
+  "title": "Why AI Suddenly Feels Everywhere in 2026",
+  "slug": "why-ai-suddenly-feels-everywhere-in-2026",
+  "series": "90 Days of AI",
+  "category": "AI Trends",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "Why AI Suddenly Feels Everywhere in 2026",
+  "meta_description": "Cover adoption, better models, cheaper inference, enterprise pilots, and AI moving from novelty to workflow.",
+  "keywords": [
+    "AI trends 2026",
+    "AI adoption",
+    "generative AI adoption"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 3 of 90 Days of AI: Why AI Suddenly Feels Everywhere in 2026. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

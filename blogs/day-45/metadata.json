@@ -1,0 +1,25 @@
+{
+  "day": 45,
+  "title": "AI Customer Support: Faster Answers, Fewer Tickets, Same Angry Caps Lock",
+  "slug": "ai-customer-support-faster-answers-fewer-tickets-same-angry-caps-lock",
+  "series": "90 Days of AI",
+  "category": "Business AI",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "AI Customer Support: Faster Answers, Fewer Tickets, Same Angry Caps Lock",
+  "meta_description": "Cover support bots, RAG, escalation, sentiment, QA, and knowledge-base maintenance.",
+  "keywords": [
+    "AI customer support",
+    "support chatbot",
+    "AI helpdesk"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 45 of 90 Days of AI: AI Customer Support: Faster Answers, Fewer Tickets, Same Angry Caps Lock. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

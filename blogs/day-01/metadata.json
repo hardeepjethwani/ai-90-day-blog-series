@@ -1,0 +1,33 @@
+{
+  "day": 1,
+  "title": "What Is an LLM? The Clearest Explanation for Builders",
+  "slug": "what-is-an-llm-clearest-explanation-for-builders",
+  "series": "90 Days of AI",
+  "category": "AI Foundations",
+  "status": "draft-ready",
+  "target_reader": "Beginners, software engineers, builders, and non-researchers who want a practical mental model of large language models.",
+  "meta_title": "What Is an LLM? The Clearest Explanation for Builders",
+  "meta_description": "A practical, beginner-friendly explanation of large language models covering tokens, training, next-token prediction, context, hallucinations, and simple code examples.",
+  "keywords": [
+    "LLM",
+    "large language model",
+    "tokens",
+    "next-token prediction",
+    "generative AI",
+    "AI for beginners",
+    "AI for builders"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Most people explain LLMs like they are trying to win a jargon marathon. Here is the practical version: tokens in, probabilities out, useful workflows around it.",
+  "assets": [
+    "assets/hero-llm-builder.png",
+    "assets/tokenization-flow.png",
+    "assets/next-token-loop.png",
+    "assets/training-vs-inference.png",
+    "assets/practical-llm-system.png"
+  ],
+  "examples": [
+    "examples/tokenizer_demo.py",
+    "examples/mini_next_token_predictor.py"
+  ]
+}

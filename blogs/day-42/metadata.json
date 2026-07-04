@@ -1,0 +1,25 @@
+{
+  "day": 42,
+  "title": "AI Content Workflows: From Keyword to Published Post Without Losing Your Soul",
+  "slug": "ai-content-workflows-from-keyword-to-published-post-without-losing-your-soul",
+  "series": "90 Days of AI",
+  "category": "AI Marketing",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "AI Content Workflows: From Keyword to Published Post Without Losing Your Soul",
+  "meta_description": "Design a practical AI-assisted blog workflow with research, outline, draft, fact-check, and editing.",
+  "keywords": [
+    "AI content workflow",
+    "AI blogging",
+    "content automation"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 42 of 90 Days of AI: AI Content Workflows: From Keyword to Published Post Without Losing Your Soul. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "day": 72,
+  "title": "AI Gateways: One Door for Models, Costs, Logs, and Sanity",
+  "slug": "ai-gateways-one-door-for-models-costs-logs-and-sanity",
+  "series": "90 Days of AI",
+  "category": "Production AI",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "AI Gateways: One Door for Models, Costs, Logs, and Sanity",
+  "meta_description": "Explain routing, fallbacks, caching, rate limits, logging, and governance.",
+  "keywords": [
+    "AI gateway",
+    "LLM gateway",
+    "model routing",
+    "AI infrastructure"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 72 of 90 Days of AI: AI Gateways: One Door for Models, Costs, Logs, and Sanity. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/ai_workflow_checklist.py"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "day": 16,
+  "title": "Agent Orchestration: The Microservices Moment for AI",
+  "slug": "agent-orchestration-the-microservices-moment-for-ai",
+  "series": "90 Days of AI",
+  "category": "Agentic AI",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "Agent Orchestration: The Microservices Moment for AI",
+  "meta_description": "Connect agent orchestration to familiar software architecture concepts.",
+  "keywords": [
+    "agent orchestration",
+    "AI architecture",
+    "multi-agent systems"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 16 of 90 Days of AI: Agent Orchestration: The Microservices Moment for AI. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

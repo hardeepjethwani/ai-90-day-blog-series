@@ -1,0 +1,25 @@
+{
+  "day": 71,
+  "title": "Choosing an AI Model: Stop Asking Which Is Best, Ask Best for What",
+  "slug": "choosing-an-ai-model-stop-asking-which-is-best-ask-best-for-what",
+  "series": "90 Days of AI",
+  "category": "AI Strategy",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "Choosing an AI Model: Stop Asking Which Is Best, Ask Best for What",
+  "meta_description": "Create a selection framework using quality, latency, cost, context, modality, and risk.",
+  "keywords": [
+    "AI model selection",
+    "LLM comparison",
+    "AI strategy"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 71 of 90 Days of AI: Choosing an AI Model: Stop Asking Which Is Best, Ask Best for What. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

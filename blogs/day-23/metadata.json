@@ -1,0 +1,25 @@
+{
+  "day": 23,
+  "title": "AI Code Review: What Models Catch and What Humans Still Own",
+  "slug": "ai-code-review-what-models-catch-and-what-humans-still-own",
+  "series": "90 Days of AI",
+  "category": "AI Coding",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "AI Code Review: What Models Catch and What Humans Still Own",
+  "meta_description": "Explain strengths, weaknesses, review prompts, false confidence, and security-sensitive checks.",
+  "keywords": [
+    "AI code review",
+    "software engineering AI",
+    "code quality"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 23 of 90 Days of AI: AI Code Review: What Models Catch and What Humans Still Own. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/ai_workflow_checklist.py"
+  ]
+}

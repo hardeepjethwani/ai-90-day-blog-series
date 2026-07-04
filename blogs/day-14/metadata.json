@@ -1,0 +1,26 @@
+{
+  "day": 14,
+  "title": "Tool-Using AI: When the Model Stops Guessing and Starts Checking",
+  "slug": "tool-using-ai-when-the-model-stops-guessing-and-starts-checking",
+  "series": "90 Days of AI",
+  "category": "Agentic AI",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "Tool-Using AI: When the Model Stops Guessing and Starts Checking",
+  "meta_description": "Show how agents call APIs, calculators, databases, search, code runners, and validators.",
+  "keywords": [
+    "AI tool use",
+    "function calling",
+    "LLM tools",
+    "agents"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 14 of 90 Days of AI: Tool-Using AI: When the Model Stops Guessing and Starts Checking. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

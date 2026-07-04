@@ -1,0 +1,25 @@
+{
+  "day": 43,
+  "title": "AI for Social Media: Repurposing Without Becoming a Content Factory Robot",
+  "slug": "ai-for-social-media-repurposing-without-becoming-a-content-factory-robot",
+  "series": "90 Days of AI",
+  "category": "AI Marketing",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "AI for Social Media: Repurposing Without Becoming a Content Factory Robot",
+  "meta_description": "Show how to turn one idea into posts, reels, threads, carousels, and newsletters responsibly.",
+  "keywords": [
+    "AI social media",
+    "content repurposing",
+    "AI marketing tools"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 43 of 90 Days of AI: AI for Social Media: Repurposing Without Becoming a Content Factory Robot. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

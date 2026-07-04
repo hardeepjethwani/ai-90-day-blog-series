@@ -1,0 +1,26 @@
+{
+  "day": 86,
+  "title": "AI ROI: How to Measure Value Without Inventing Fantasy Math",
+  "slug": "ai-roi-how-to-measure-value-without-inventing-fantasy-math",
+  "series": "90 Days of AI",
+  "category": "AI Strategy",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "AI ROI: How to Measure Value Without Inventing Fantasy Math",
+  "meta_description": "Define productivity, revenue, cost savings, quality, speed, risk, and adoption metrics.",
+  "keywords": [
+    "AI ROI",
+    "AI metrics",
+    "AI business value",
+    "AI strategy"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 86 of 90 Days of AI: AI ROI: How to Measure Value Without Inventing Fantasy Math. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

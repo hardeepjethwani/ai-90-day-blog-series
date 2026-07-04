@@ -1,0 +1,25 @@
+{
+  "day": 5,
+  "title": "Context Engineering: The Skill Behind Better AI Outputs",
+  "slug": "context-engineering-the-skill-behind-better-ai-outputs",
+  "series": "90 Days of AI",
+  "category": "Prompting",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "Context Engineering: The Skill Behind Better AI Outputs",
+  "meta_description": "Explain how files, docs, examples, memory, and tool results shape model behavior.",
+  "keywords": [
+    "context engineering",
+    "LLM context",
+    "AI workflows"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 5 of 90 Days of AI: Context Engineering: The Skill Behind Better AI Outputs. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

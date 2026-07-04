@@ -1,0 +1,1155 @@
+{
+  "series_name": "90 Days of AI: Tools, Agents, Generative AI, and What Comes Next",
+  "generated_on": "2026-07-03",
+  "cadence": "daily",
+  "total_days": 90,
+  "notes": "Topics are ordered as a progressive blog series: AI foundations, generative AI, agentic AI, tools, production patterns, business use cases, governance, and emerging trends.",
+  "sources_consulted": [
+    "https://hai.stanford.edu/ai-index/2026-ai-index-report",
+    "https://news.microsoft.com/source/features/ai/whats-next-in-ai-7-trends-to-watch-in-2026/",
+    "https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization",
+    "https://cloud.google.com/resources/content/ai-agent-trends-2026",
+    "https://www.deloitte.com/us/en/insights/topics/technology-management/tech-trends/2026/agentic-ai-strategy.html",
+    "https://www.techradar.com/pro/agentic-ai-adoption-outpaces-governance-in-regulated-industries",
+    "https://www.axios.com/2026/06/26/axios-house-brands-told-to-act-fast-on-ai-commerce",
+    "https://www.dataiku.com/blog/agentic-ai-tools-for-enterprises"
+  ],
+  "topics": [
+    {
+      "day": 1,
+      "title": "What Is an LLM? The Clearest Explanation for Builders",
+      "category": "AI Foundations",
+      "angle": "Explain tokens, training, next-token prediction, context windows, and why LLMs matter without research-paper fog.",
+      "keywords": [
+        "LLM",
+        "large language model",
+        "tokens",
+        "next-token prediction"
+      ],
+      "image_idea": "Token chips flowing through neural network layers into probability bars."
+    },
+    {
+      "day": 2,
+      "title": "Generative AI vs Traditional AI: Same Family, Different Superpowers",
+      "category": "AI Foundations",
+      "angle": "Compare predictive AI, rule-based systems, and generative models with practical examples.",
+      "keywords": [
+        "generative AI",
+        "traditional AI",
+        "machine learning",
+        "AI basics"
+      ],
+      "image_idea": "Split diagram: classifier output vs content generation output."
+    },
+    {
+      "day": 3,
+      "title": "Why AI Suddenly Feels Everywhere in 2026",
+      "category": "AI Trends",
+      "angle": "Cover adoption, better models, cheaper inference, enterprise pilots, and AI moving from novelty to workflow.",
+      "keywords": [
+        "AI trends 2026",
+        "AI adoption",
+        "generative AI adoption"
+      ],
+      "image_idea": "AI spreading from chat apps into office, code, commerce, and devices."
+    },
+    {
+      "day": 4,
+      "title": "Prompt Engineering Is Not Dead, It Just Got a Real Job",
+      "category": "Prompting",
+      "angle": "Move beyond clever prompts into context design, constraints, examples, and output validation.",
+      "keywords": [
+        "prompt engineering",
+        "AI prompts",
+        "context engineering"
+      ],
+      "image_idea": "Prompt builder pipeline with goal, context, constraints, and output format."
+    },
+    {
+      "day": 5,
+      "title": "Context Engineering: The Skill Behind Better AI Outputs",
+      "category": "Prompting",
+      "angle": "Explain how files, docs, examples, memory, and tool results shape model behavior.",
+      "keywords": [
+        "context engineering",
+        "LLM context",
+        "AI workflows"
+      ],
+      "image_idea": "Model surrounded by context blocks: docs, logs, tools, examples."
+    },
+    {
+      "day": 6,
+      "title": "Tokens Are the New Compute Meter: Why AI Costs Feel Weird",
+      "category": "AI Economics",
+      "angle": "Explain input tokens, output tokens, context size, caching, and why long answers cost more.",
+      "keywords": [
+        "AI tokens",
+        "LLM cost",
+        "inference cost",
+        "AI pricing"
+      ],
+      "image_idea": "Token meter connected to model usage and cost dashboard."
+    },
+    {
+      "day": 7,
+      "title": "Temperature, Top-p, and Why Your AI Sometimes Gets Spicy",
+      "category": "AI Foundations",
+      "angle": "Explain decoding settings using examples for coding, brainstorming, and structured JSON.",
+      "keywords": [
+        "temperature",
+        "top-p",
+        "LLM settings",
+        "AI randomness"
+      ],
+      "image_idea": "Dial from boring precise output to creative wild output."
+    },
+    {
+      "day": 8,
+      "title": "Embeddings Explained: Search by Meaning, Not Just Keywords",
+      "category": "RAG and Search",
+      "angle": "Teach semantic search, vector similarity, and practical uses like support docs and internal knowledge search.",
+      "keywords": [
+        "embeddings",
+        "semantic search",
+        "vector database",
+        "AI search"
+      ],
+      "image_idea": "Documents plotted as dots near related meaning clusters."
+    },
+    {
+      "day": 9,
+      "title": "RAG Explained: Giving AI an Open-Book Exam",
+      "category": "RAG and Search",
+      "angle": "Explain retrieval-augmented generation, chunking, embeddings, citations, and common mistakes.",
+      "keywords": [
+        "RAG",
+        "retrieval augmented generation",
+        "AI knowledge base"
+      ],
+      "image_idea": "Question retrieving document chunks before model answer."
+    },
+    {
+      "day": 10,
+      "title": "Fine-Tuning vs RAG: Which One Should You Actually Use?",
+      "category": "RAG and Search",
+      "angle": "Clarify when to use prompt context, RAG, fine-tuning, and model customization.",
+      "keywords": [
+        "fine-tuning",
+        "RAG vs fine-tuning",
+        "LLM customization"
+      ],
+      "image_idea": "Decision tree for prompt, RAG, fine-tune, or tool use."
+    },
+    {
+      "day": 11,
+      "title": "What Is Agentic AI? From Chatbots to AI That Takes Action",
+      "category": "Agentic AI",
+      "angle": "Define AI agents, planning, tool use, memory, execution, and human oversight.",
+      "keywords": [
+        "agentic AI",
+        "AI agents",
+        "autonomous agents"
+      ],
+      "image_idea": "Agent loop: goal, plan, act, observe, revise."
+    },
+    {
+      "day": 12,
+      "title": "AI Agents vs AI Assistants: The Difference That Actually Matters",
+      "category": "Agentic AI",
+      "angle": "Compare assistants that respond with agents that complete multi-step work.",
+      "keywords": [
+        "AI assistant",
+        "AI agent",
+        "agentic workflows"
+      ],
+      "image_idea": "Assistant answering chat vs agent operating tools across apps."
+    },
+    {
+      "day": 13,
+      "title": "The Agent Loop: Plan, Act, Observe, Repeat",
+      "category": "Agentic AI",
+      "angle": "Break down the core control loop behind agents with a simple coding/task example.",
+      "keywords": [
+        "agent loop",
+        "AI planning",
+        "tool use",
+        "AI automation"
+      ],
+      "image_idea": "Circular flow diagram with planning and observation checkpoints."
+    },
+    {
+      "day": 14,
+      "title": "Tool-Using AI: When the Model Stops Guessing and Starts Checking",
+      "category": "Agentic AI",
+      "angle": "Show how agents call APIs, calculators, databases, search, code runners, and validators.",
+      "keywords": [
+        "AI tool use",
+        "function calling",
+        "LLM tools",
+        "agents"
+      ],
+      "image_idea": "Model connected to calculator, browser, database, and code runner."
+    },
+    {
+      "day": 15,
+      "title": "Multi-Agent Systems: When One AI Intern Is Not Enough",
+      "category": "Agentic AI",
+      "angle": "Explain specialized agents, coordinator agents, debate patterns, and failure modes.",
+      "keywords": [
+        "multi-agent AI",
+        "agent orchestration",
+        "AI teams"
+      ],
+      "image_idea": "Team of specialized agents reporting to an orchestrator."
+    },
+    {
+      "day": 16,
+      "title": "Agent Orchestration: The Microservices Moment for AI",
+      "category": "Agentic AI",
+      "angle": "Connect agent orchestration to familiar software architecture concepts.",
+      "keywords": [
+        "agent orchestration",
+        "AI architecture",
+        "multi-agent systems"
+      ],
+      "image_idea": "Agent services communicating like microservices with shared state."
+    },
+    {
+      "day": 17,
+      "title": "MCP Explained: Why AI Tools Need a Common Plug",
+      "category": "AI Protocols",
+      "angle": "Explain Model Context Protocol-style tool integration and why standard connectors matter.",
+      "keywords": [
+        "MCP",
+        "Model Context Protocol",
+        "AI tools",
+        "agent protocols"
+      ],
+      "image_idea": "Universal adapter connecting AI app to files, APIs, and databases."
+    },
+    {
+      "day": 18,
+      "title": "Agent-to-Agent Communication: Can AI Systems Talk to Each Other?",
+      "category": "AI Protocols",
+      "angle": "Cover emerging agent interoperability, handoffs, shared goals, and governance challenges.",
+      "keywords": [
+        "agent-to-agent",
+        "A2A",
+        "AI interoperability",
+        "AI agents"
+      ],
+      "image_idea": "Two agents exchanging task packets through a protocol layer."
+    },
+    {
+      "day": 19,
+      "title": "Computer-Using Agents: AI That Clicks Buttons So You Do Not Have To",
+      "category": "Agentic AI",
+      "angle": "Explain agents that use browsers/desktops, practical workflows, and risks.",
+      "keywords": [
+        "computer use AI",
+        "browser agents",
+        "AI automation",
+        "AI agents"
+      ],
+      "image_idea": "AI cursor navigating browser tabs with a human approval checkpoint."
+    },
+    {
+      "day": 20,
+      "title": "AI Agents in the Browser: The New Front Door to Work",
+      "category": "Agentic AI",
+      "angle": "Discuss browser-native agents, web automation, research, shopping, and productivity.",
+      "keywords": [
+        "AI browser",
+        "browser agents",
+        "agentic web",
+        "AI tools"
+      ],
+      "image_idea": "Browser window with agent sidebar executing tasks."
+    },
+    {
+      "day": 21,
+      "title": "Coding Agents: Pair Programmer, Debugger, or Chaos Button?",
+      "category": "AI Coding",
+      "angle": "Evaluate coding agents, repo context, tests, diffs, reviews, and safe workflows.",
+      "keywords": [
+        "AI coding agents",
+        "AI pair programming",
+        "code generation"
+      ],
+      "image_idea": "Coding agent reading tests, editing files, and running verification."
+    },
+    {
+      "day": 22,
+      "title": "How to Use AI for Debugging Without Making the Bug Wear a Hat",
+      "category": "AI Coding",
+      "angle": "Practical workflow for stack traces, reproduction steps, logs, and patch verification.",
+      "keywords": [
+        "AI debugging",
+        "LLM debugging",
+        "AI for developers"
+      ],
+      "image_idea": "Bug report flowing through logs, hypothesis, patch, and tests."
+    },
+    {
+      "day": 23,
+      "title": "AI Code Review: What Models Catch and What Humans Still Own",
+      "category": "AI Coding",
+      "angle": "Explain strengths, weaknesses, review prompts, false confidence, and security-sensitive checks.",
+      "keywords": [
+        "AI code review",
+        "software engineering AI",
+        "code quality"
+      ],
+      "image_idea": "Diff view with AI comments and human approval."
+    },
+    {
+      "day": 24,
+      "title": "AI Test Generation: Great Servant, Suspicious Master",
+      "category": "AI Coding",
+      "angle": "Show how to generate useful tests while avoiding shallow assertion theater.",
+      "keywords": [
+        "AI test generation",
+        "unit tests",
+        "AI coding",
+        "QA automation"
+      ],
+      "image_idea": "Test cases generated from requirements and checked against coverage."
+    },
+    {
+      "day": 25,
+      "title": "Vibe Coding vs Engineering: Where AI Helps and Where It Hurts",
+      "category": "AI Coding",
+      "angle": "Explain quick prototyping versus maintainable systems, with guardrails for builders.",
+      "keywords": [
+        "vibe coding",
+        "AI coding",
+        "software engineering",
+        "AI tools"
+      ],
+      "image_idea": "Fast prototype bridge next to maintainable production bridge."
+    },
+    {
+      "day": 26,
+      "title": "AI for API Integration: From Docs to Working Calls Faster",
+      "category": "AI Coding",
+      "angle": "Use AI to read docs, draft requests, handle errors, and generate examples.",
+      "keywords": [
+        "AI API integration",
+        "developer tools",
+        "API docs",
+        "LLM coding"
+      ],
+      "image_idea": "API docs transformed into request examples and error handlers."
+    },
+    {
+      "day": 27,
+      "title": "AI DevOps: Logs, Incidents, Runbooks, and the Calm Button We Deserve",
+      "category": "AI Operations",
+      "angle": "Explore AI for incident summaries, root-cause hints, runbook execution, and alert noise reduction.",
+      "keywords": [
+        "AI DevOps",
+        "AIOps",
+        "incident management",
+        "AI operations"
+      ],
+      "image_idea": "Alert storm condensed into root-cause summary and runbook steps."
+    },
+    {
+      "day": 28,
+      "title": "LLMOps Explained: Shipping AI Features Without Screaming Internally",
+      "category": "Production AI",
+      "angle": "Cover prompts, evals, datasets, monitoring, versioning, costs, and rollback.",
+      "keywords": [
+        "LLMOps",
+        "AI production",
+        "LLM monitoring",
+        "AI deployment"
+      ],
+      "image_idea": "Pipeline from prompt version to evals, deploy, monitor, rollback."
+    },
+    {
+      "day": 29,
+      "title": "Evals: Unit Tests for AI's Squishy Brain",
+      "category": "Production AI",
+      "angle": "Explain offline evals, golden datasets, human grading, regression tests, and rubrics.",
+      "keywords": [
+        "LLM evals",
+        "AI evaluation",
+        "model testing",
+        "AI quality"
+      ],
+      "image_idea": "Evaluation board scoring answer accuracy, format, safety, and usefulness."
+    },
+    {
+      "day": 30,
+      "title": "AI Observability: Watching the Model Before It Starts Freelancing",
+      "category": "Production AI",
+      "angle": "Cover tracing, prompt logs, tool calls, latency, cost, drift, and hallucination monitoring.",
+      "keywords": [
+        "AI observability",
+        "LLM tracing",
+        "agent monitoring",
+        "AI logs"
+      ],
+      "image_idea": "Dashboard showing prompts, tools, latency, cost, and quality signals."
+    },
+    {
+      "day": 31,
+      "title": "Multimodal AI: Models That Read, See, Hear, and Occasionally Impress You",
+      "category": "Multimodal AI",
+      "angle": "Explain text, image, audio, video, and document understanding in one model workflow.",
+      "keywords": [
+        "multimodal AI",
+        "vision language models",
+        "AI image understanding"
+      ],
+      "image_idea": "Model receiving text, image, audio, and video inputs."
+    },
+    {
+      "day": 32,
+      "title": "Vision-Language Models: When AI Looks at Screenshots and Gets Useful",
+      "category": "Multimodal AI",
+      "angle": "Explore image understanding, UI inspection, chart reading, and document extraction.",
+      "keywords": [
+        "vision-language model",
+        "VLM",
+        "AI vision",
+        "image understanding"
+      ],
+      "image_idea": "Screenshot analyzed into labels, issues, and structured output."
+    },
+    {
+      "day": 33,
+      "title": "AI Video Generation: From Prompt to Moving Pixels",
+      "category": "Generative Media",
+      "angle": "Explain text-to-video, image-to-video, storyboarding, limitations, and business uses.",
+      "keywords": [
+        "AI video generation",
+        "text to video",
+        "generative video"
+      ],
+      "image_idea": "Prompt turning into storyboard frames and final video timeline."
+    },
+    {
+      "day": 34,
+      "title": "AI Image Generation in 2026: What Changed and What Still Looks Weird",
+      "category": "Generative Media",
+      "angle": "Cover image models, editing, product visuals, brand consistency, and failure cases.",
+      "keywords": [
+        "AI image generation",
+        "generative AI images",
+        "AI design tools"
+      ],
+      "image_idea": "Image generation workflow: prompt, reference, edit, brand review."
+    },
+    {
+      "day": 35,
+      "title": "AI Music and Voice: Creative Tool or Copyright Headache Generator?",
+      "category": "Generative Media",
+      "angle": "Discuss voice cloning, music generation, dubbing, rights, consent, and use cases.",
+      "keywords": [
+        "AI voice",
+        "AI music",
+        "voice cloning",
+        "generative audio"
+      ],
+      "image_idea": "Audio waveform branching into voiceover, music, dubbing, and consent gate."
+    },
+    {
+      "day": 36,
+      "title": "Real-Time Voice Agents: The Call Center Is Getting a Brain Upgrade",
+      "category": "AI Tools",
+      "angle": "Explain voice agents, speech-to-text, latency, tool calls, escalation, and QA.",
+      "keywords": [
+        "voice agents",
+        "AI call center",
+        "real-time AI",
+        "speech AI"
+      ],
+      "image_idea": "Customer call routed through voice AI, tools, and human handoff."
+    },
+    {
+      "day": 37,
+      "title": "AI Avatars and Digital Humans: Helpful Interface or Too Much Eye Contact?",
+      "category": "Generative Media",
+      "angle": "Cover avatars for training, sales, education, support, and the uncanny valley.",
+      "keywords": [
+        "AI avatars",
+        "digital humans",
+        "synthetic media",
+        "AI video"
+      ],
+      "image_idea": "Digital avatar presenter with consent and disclosure labels."
+    },
+    {
+      "day": 38,
+      "title": "AI in Design Tools: From Blank Canvas Panic to First Draft Fast",
+      "category": "AI Tools",
+      "angle": "Discuss AI for UI design, image editing, layout generation, brand kits, and design review.",
+      "keywords": [
+        "AI design tools",
+        "AI UX",
+        "generative design",
+        "AI creativity"
+      ],
+      "image_idea": "Designer canvas with AI-generated layout options."
+    },
+    {
+      "day": 39,
+      "title": "AI Presentation Tools: Slides That No Longer Look Like 2008",
+      "category": "AI Tools",
+      "angle": "Explore AI-generated decks, research synthesis, visuals, speaker notes, and review workflows.",
+      "keywords": [
+        "AI presentations",
+        "AI slides",
+        "AI productivity tools"
+      ],
+      "image_idea": "Messy notes transformed into polished slide deck."
+    },
+    {
+      "day": 40,
+      "title": "AI Document Assistants: PDFs Finally Meet Their Match",
+      "category": "AI Tools",
+      "angle": "Cover PDF Q&A, extraction, summarization, contract review, citations, and risks.",
+      "keywords": [
+        "AI document assistant",
+        "PDF AI",
+        "document AI",
+        "contract AI"
+      ],
+      "image_idea": "PDF pages becoming answer cards with highlighted citations."
+    },
+    {
+      "day": 41,
+      "title": "AI Search Is Changing SEO: Welcome to GEO and Answer Engines",
+      "category": "AI Marketing",
+      "angle": "Explain generative engine optimization, answer visibility, citations, and content strategy.",
+      "keywords": [
+        "AI SEO",
+        "GEO",
+        "answer engine optimization",
+        "AI search"
+      ],
+      "image_idea": "Search results evolving into AI answer box with cited sources."
+    },
+    {
+      "day": 42,
+      "title": "AI Content Workflows: From Keyword to Published Post Without Losing Your Soul",
+      "category": "AI Marketing",
+      "angle": "Design a practical AI-assisted blog workflow with research, outline, draft, fact-check, and editing.",
+      "keywords": [
+        "AI content workflow",
+        "AI blogging",
+        "content automation"
+      ],
+      "image_idea": "Content pipeline from topic research to published article."
+    },
+    {
+      "day": 43,
+      "title": "AI for Social Media: Repurposing Without Becoming a Content Factory Robot",
+      "category": "AI Marketing",
+      "angle": "Show how to turn one idea into posts, reels, threads, carousels, and newsletters responsibly.",
+      "keywords": [
+        "AI social media",
+        "content repurposing",
+        "AI marketing tools"
+      ],
+      "image_idea": "One blog post branching into social formats."
+    },
+    {
+      "day": 44,
+      "title": "AI Commerce: When Agents Start Shopping for Humans",
+      "category": "AI Commerce",
+      "angle": "Explain AI agents as shoppers, product data readiness, conversational commerce, and brand visibility.",
+      "keywords": [
+        "AI commerce",
+        "agentic commerce",
+        "AI shopping agents"
+      ],
+      "image_idea": "Shopping agent comparing products using structured brand data."
+    },
+    {
+      "day": 45,
+      "title": "AI Customer Support: Faster Answers, Fewer Tickets, Same Angry Caps Lock",
+      "category": "Business AI",
+      "angle": "Cover support bots, RAG, escalation, sentiment, QA, and knowledge-base maintenance.",
+      "keywords": [
+        "AI customer support",
+        "support chatbot",
+        "AI helpdesk"
+      ],
+      "image_idea": "Support flow from customer question to AI answer and human escalation."
+    },
+    {
+      "day": 46,
+      "title": "AI Sales Assistants: CRM Updates Without the Ritual Suffering",
+      "category": "Business AI",
+      "angle": "Explore lead research, call summaries, follow-up drafting, CRM automation, and risks.",
+      "keywords": [
+        "AI sales assistant",
+        "CRM AI",
+        "sales automation"
+      ],
+      "image_idea": "Sales call summary updating CRM and generating follow-up email."
+    },
+    {
+      "day": 47,
+      "title": "AI for HR: Recruiting, Onboarding, and the Bias Trap",
+      "category": "Business AI",
+      "angle": "Discuss resume screening, employee support, onboarding copilots, fairness, and auditability.",
+      "keywords": [
+        "AI HR",
+        "AI recruiting",
+        "HR automation",
+        "AI bias"
+      ],
+      "image_idea": "Recruiting funnel with fairness and audit checkpoints."
+    },
+    {
+      "day": 48,
+      "title": "AI in Finance Teams: Forecasts, Reconciliation, and Very Serious Spreadsheets",
+      "category": "Business AI",
+      "angle": "Cover finance copilots, variance analysis, invoice extraction, compliance, and approval workflows.",
+      "keywords": [
+        "AI finance",
+        "finance automation",
+        "AI accounting",
+        "AI spreadsheets"
+      ],
+      "image_idea": "Finance dashboard with AI variance explanation and approval gate."
+    },
+    {
+      "day": 49,
+      "title": "AI for Legal Work: Helpful Research Assistant, Not Your Lawyer in a Hoodie",
+      "category": "Business AI",
+      "angle": "Explain legal research, contract review, clause extraction, citations, confidentiality, and review.",
+      "keywords": [
+        "legal AI",
+        "contract AI",
+        "AI legal research"
+      ],
+      "image_idea": "Contract clauses highlighted with AI notes and lawyer approval."
+    },
+    {
+      "day": 50,
+      "title": "AI in Healthcare: Promise, Paperwork, and Very Necessary Guardrails",
+      "category": "AI Industries",
+      "angle": "Cover clinical documentation, triage support, imaging, patient communication, and safety.",
+      "keywords": [
+        "AI healthcare",
+        "medical AI",
+        "clinical AI",
+        "AI safety"
+      ],
+      "image_idea": "Healthcare AI assistant supporting doctor with documentation, not replacing care."
+    },
+    {
+      "day": 51,
+      "title": "AI in Education: Tutor, Teaching Assistant, or Homework Shortcut?",
+      "category": "AI Industries",
+      "angle": "Discuss personalized tutors, lesson planning, assessment, academic integrity, and access.",
+      "keywords": [
+        "AI education",
+        "AI tutor",
+        "edtech AI",
+        "personalized learning"
+      ],
+      "image_idea": "Student learning path with AI tutor and teacher oversight."
+    },
+    {
+      "day": 52,
+      "title": "AI in Cybersecurity: Defender, Attacker, and the Weird Arms Race",
+      "category": "AI Security",
+      "angle": "Explore AI for threat detection, phishing, SOC workflows, malware analysis, and adversarial use.",
+      "keywords": [
+        "AI cybersecurity",
+        "AI security",
+        "threat detection",
+        "SOC AI"
+      ],
+      "image_idea": "Security dashboard with AI defending against AI-assisted attacks."
+    },
+    {
+      "day": 53,
+      "title": "AI Phishing and Deepfakes: Trust, But Verify Like Your Inbox Depends on It",
+      "category": "AI Security",
+      "angle": "Explain synthetic voice/video scams, phishing automation, verification habits, and organization controls.",
+      "keywords": [
+        "AI phishing",
+        "deepfakes",
+        "AI scams",
+        "synthetic media"
+      ],
+      "image_idea": "Fake video call flagged by verification checklist."
+    },
+    {
+      "day": 54,
+      "title": "Prompt Injection: When Your AI Reads the Wrong Instructions",
+      "category": "AI Security",
+      "angle": "Explain prompt injection, data exfiltration, tool misuse, and defenses for RAG/apps.",
+      "keywords": [
+        "prompt injection",
+        "LLM security",
+        "AI app security"
+      ],
+      "image_idea": "Malicious document trying to override system instructions."
+    },
+    {
+      "day": 55,
+      "title": "Data Privacy in AI Apps: Do Not Feed the Model Your Crown Jewels",
+      "category": "AI Governance",
+      "angle": "Discuss sensitive data, retention, vendor settings, redaction, access control, and policy.",
+      "keywords": [
+        "AI privacy",
+        "data privacy",
+        "LLM data security"
+      ],
+      "image_idea": "Sensitive data passing through redaction and policy filters before model."
+    },
+    {
+      "day": 56,
+      "title": "AI Governance: The Seatbelt Nobody Wants Until the Demo Drives Off a Cliff",
+      "category": "AI Governance",
+      "angle": "Explain ownership, approval, risk tiers, audits, policies, and human accountability.",
+      "keywords": [
+        "AI governance",
+        "responsible AI",
+        "AI risk management"
+      ],
+      "image_idea": "Governance control panel around AI workflows."
+    },
+    {
+      "day": 57,
+      "title": "Responsible AI: Bias, Fairness, Transparency, and Other Non-Optional Things",
+      "category": "AI Governance",
+      "angle": "Cover fairness, explainability, disclosure, testing, and stakeholder impact.",
+      "keywords": [
+        "responsible AI",
+        "AI fairness",
+        "AI transparency",
+        "AI bias"
+      ],
+      "image_idea": "Responsible AI checklist with fairness, privacy, safety, and explainability."
+    },
+    {
+      "day": 58,
+      "title": "AI Regulations in 2026: What Builders Should Watch",
+      "category": "AI Governance",
+      "angle": "Summarize major regulatory themes: risk classification, disclosures, privacy, copyright, and audits.",
+      "keywords": [
+        "AI regulation 2026",
+        "AI compliance",
+        "AI law",
+        "responsible AI"
+      ],
+      "image_idea": "Map of policy documents connected to AI product lifecycle."
+    },
+    {
+      "day": 59,
+      "title": "Copyright and AI Training Data: The Internet's Messiest Group Project",
+      "category": "AI Governance",
+      "angle": "Explain licensing, datasets, creator rights, synthetic content, and enterprise concerns.",
+      "keywords": [
+        "AI copyright",
+        "training data",
+        "AI licensing",
+        "synthetic content"
+      ],
+      "image_idea": "Dataset pipeline with licensed, public, private, and synthetic data lanes."
+    },
+    {
+      "day": 60,
+      "title": "AI Disclosure: When Should You Tell People AI Was Used?",
+      "category": "AI Governance",
+      "angle": "Discuss watermarking, transparency labels, synthetic media, customer trust, and platform rules.",
+      "keywords": [
+        "AI disclosure",
+        "AI watermarking",
+        "synthetic media disclosure"
+      ],
+      "image_idea": "Generated content with clear AI-use label and trust indicators."
+    },
+    {
+      "day": 61,
+      "title": "Small Language Models: Tiny Models With Big Workplace Energy",
+      "category": "AI Models",
+      "angle": "Explain SLMs, cost, latency, privacy, edge deployment, and when smaller is better.",
+      "keywords": [
+        "small language models",
+        "SLM",
+        "on-device AI",
+        "efficient AI"
+      ],
+      "image_idea": "Small model running on laptop/phone next to large cloud model."
+    },
+    {
+      "day": 62,
+      "title": "On-Device AI: Why Your Laptop Wants to Think Locally",
+      "category": "AI Infrastructure",
+      "angle": "Cover local models, privacy, latency, offline use, NPUs, and edge constraints.",
+      "keywords": [
+        "on-device AI",
+        "local AI",
+        "edge AI",
+        "AI PC"
+      ],
+      "image_idea": "Phone/laptop running AI locally with no cloud connection."
+    },
+    {
+      "day": 63,
+      "title": "AI PCs and Neural Chips: What NPUs Actually Do",
+      "category": "AI Infrastructure",
+      "angle": "Explain NPUs, GPUs, CPUs, local inference, battery life, and practical user benefits.",
+      "keywords": [
+        "AI PC",
+        "NPU",
+        "AI chips",
+        "local inference"
+      ],
+      "image_idea": "CPU, GPU, and NPU each handling different workloads."
+    },
+    {
+      "day": 64,
+      "title": "The AI Infrastructure Stack: Chips, Memory, Power, and Patience",
+      "category": "AI Infrastructure",
+      "angle": "Explain why AI depends on GPUs, memory bandwidth, data centers, energy, and supply chains.",
+      "keywords": [
+        "AI infrastructure",
+        "GPU",
+        "AI data centers",
+        "AI compute"
+      ],
+      "image_idea": "Stack from power grid to chips to models to apps."
+    },
+    {
+      "day": 65,
+      "title": "Long Context Windows: Bigger Memory or Bigger Mess?",
+      "category": "AI Models",
+      "angle": "Explain long-context models, use cases, attention limits, cost, and retrieval tradeoffs.",
+      "keywords": [
+        "long context",
+        "LLM context window",
+        "RAG",
+        "AI memory"
+      ],
+      "image_idea": "Huge document inside context window with highlighted relevant sections."
+    },
+    {
+      "day": 66,
+      "title": "AI Memory: What Should Agents Remember and What Should They Forget?",
+      "category": "Agentic AI",
+      "angle": "Discuss short-term memory, long-term memory, user preferences, privacy, and retrieval.",
+      "keywords": [
+        "AI memory",
+        "agent memory",
+        "personalized AI",
+        "LLM context"
+      ],
+      "image_idea": "Memory vault with user-approved facts and forget button."
+    },
+    {
+      "day": 67,
+      "title": "Mixture of Experts: Why Some Models Use Specialist Sub-Brains",
+      "category": "AI Models",
+      "angle": "Explain MoE architecture simply, benefits, routing, cost, and limitations.",
+      "keywords": [
+        "mixture of experts",
+        "MoE",
+        "LLM architecture",
+        "AI models"
+      ],
+      "image_idea": "Router sending token to specialist expert modules."
+    },
+    {
+      "day": 68,
+      "title": "Synthetic Data: Training AI With Data AI Helped Create",
+      "category": "AI Models",
+      "angle": "Explore synthetic data for training/evals, privacy, quality, contamination, and bias.",
+      "keywords": [
+        "synthetic data",
+        "AI training data",
+        "model evaluation"
+      ],
+      "image_idea": "Synthetic examples generated, filtered, and added to training/eval sets."
+    },
+    {
+      "day": 69,
+      "title": "Model Distillation: Teaching a Smaller Model the Big Model's Tricks",
+      "category": "AI Models",
+      "angle": "Explain distillation, cost savings, latency, domain models, and tradeoffs.",
+      "keywords": [
+        "model distillation",
+        "AI optimization",
+        "small models",
+        "LLM compression"
+      ],
+      "image_idea": "Large teacher model transferring behavior to smaller student model."
+    },
+    {
+      "day": 70,
+      "title": "Open-Source AI Models: Freedom, Flexibility, and Surprise Maintenance",
+      "category": "AI Models",
+      "angle": "Compare open models and closed APIs for cost, control, privacy, quality, and operations.",
+      "keywords": [
+        "open-source AI",
+        "open models",
+        "LLM deployment",
+        "local AI"
+      ],
+      "image_idea": "Decision matrix comparing open model and hosted API."
+    },
+    {
+      "day": 71,
+      "title": "Choosing an AI Model: Stop Asking Which Is Best, Ask Best for What",
+      "category": "AI Strategy",
+      "angle": "Create a selection framework using quality, latency, cost, context, modality, and risk.",
+      "keywords": [
+        "AI model selection",
+        "LLM comparison",
+        "AI strategy"
+      ],
+      "image_idea": "Radar chart comparing models across cost, speed, reasoning, context, and tools."
+    },
+    {
+      "day": 72,
+      "title": "AI Gateways: One Door for Models, Costs, Logs, and Sanity",
+      "category": "Production AI",
+      "angle": "Explain routing, fallbacks, caching, rate limits, logging, and governance.",
+      "keywords": [
+        "AI gateway",
+        "LLM gateway",
+        "model routing",
+        "AI infrastructure"
+      ],
+      "image_idea": "Gateway routing requests to multiple model providers with logging."
+    },
+    {
+      "day": 73,
+      "title": "Prompt Caching and Cost Optimization: Make AI Cheaper Without Making It Worse",
+      "category": "Production AI",
+      "angle": "Cover caching, batching, smaller models, RAG tuning, output limits, and routing.",
+      "keywords": [
+        "AI cost optimization",
+        "prompt caching",
+        "LLM cost",
+        "AI infrastructure"
+      ],
+      "image_idea": "Cost dashboard showing savings from cache, routing, and shorter prompts."
+    },
+    {
+      "day": 74,
+      "title": "Human-in-the-Loop AI: The Boring Pattern That Saves Products",
+      "category": "Production AI",
+      "angle": "Explain review queues, approvals, escalation, confidence thresholds, and feedback loops.",
+      "keywords": [
+        "human in the loop",
+        "AI review",
+        "AI governance",
+        "AI workflow"
+      ],
+      "image_idea": "AI output passing through human approval before action."
+    },
+    {
+      "day": 75,
+      "title": "AI Workflow Automation: Replacing Tasks, Not Entire Humans",
+      "category": "Business AI",
+      "angle": "Identify repeatable workflows, task decomposition, ROI, and responsible automation.",
+      "keywords": [
+        "AI workflow automation",
+        "AI productivity",
+        "business automation"
+      ],
+      "image_idea": "Workflow map with AI taking repetitive steps and humans owning judgment."
+    },
+    {
+      "day": 76,
+      "title": "The AI Manager: Why Humans May Soon Manage Agents Like Teams",
+      "category": "Future of Work",
+      "angle": "Discuss people delegating to agents, reviewing work, setting goals, and judging tradeoffs.",
+      "keywords": [
+        "AI manager",
+        "future of work",
+        "AI agents",
+        "agentic AI"
+      ],
+      "image_idea": "Human manager assigning tasks to multiple AI agents."
+    },
+    {
+      "day": 77,
+      "title": "AI Teammates: Helpful Coworkers or Calendar Invaders?",
+      "category": "Future of Work",
+      "angle": "Explore AI collaborators in meetings, docs, project management, and decision support.",
+      "keywords": [
+        "AI teammates",
+        "AI at work",
+        "collaborative AI",
+        "future of work"
+      ],
+      "image_idea": "Meeting board with human team members and AI teammate cards."
+    },
+    {
+      "day": 78,
+      "title": "AI Meetings: Summaries Are Just the Beginning",
+      "category": "Future of Work",
+      "angle": "Cover meeting agents, action items, decisions, follow-ups, CRM updates, and privacy.",
+      "keywords": [
+        "AI meeting assistant",
+        "meeting summaries",
+        "workplace AI"
+      ],
+      "image_idea": "Meeting transcript converted into decisions, tasks, and follow-ups."
+    },
+    {
+      "day": 79,
+      "title": "Personal AI Assistants: The Dream, the Reality, and the Notification Problem",
+      "category": "Future of Work",
+      "angle": "Discuss personal agents for email, calendar, research, shopping, and boundaries.",
+      "keywords": [
+        "personal AI assistant",
+        "AI agents",
+        "productivity AI"
+      ],
+      "image_idea": "Personal assistant agent managing calendar, inbox, and reminders with permissions."
+    },
+    {
+      "day": 80,
+      "title": "AI for Research: Literature Reviews Without Drowning in PDFs",
+      "category": "AI Tools",
+      "angle": "Explore research agents, citation checking, paper summarization, and source reliability.",
+      "keywords": [
+        "AI research assistant",
+        "AI literature review",
+        "academic AI"
+      ],
+      "image_idea": "Stack of papers transformed into cited research map."
+    },
+    {
+      "day": 81,
+      "title": "AI for Data Analysis: From CSV Chaos to Useful Insight",
+      "category": "Data and AI",
+      "angle": "Show how AI helps inspect data, write queries, create charts, and explain findings.",
+      "keywords": [
+        "AI data analysis",
+        "data science AI",
+        "AI charts",
+        "analytics AI"
+      ],
+      "image_idea": "CSV file becoming charts and insight cards."
+    },
+    {
+      "day": 82,
+      "title": "AI and BI Dashboards: Asking Data Questions in Plain English",
+      "category": "Data and AI",
+      "angle": "Cover natural language analytics, metric definitions, semantic layers, and trust.",
+      "keywords": [
+        "AI BI",
+        "natural language analytics",
+        "AI dashboards"
+      ],
+      "image_idea": "User asking a business question and dashboard generating chart with caveats."
+    },
+    {
+      "day": 83,
+      "title": "AI Data Readiness: Your Model Is Only as Good as Your Messy Database",
+      "category": "Data and AI",
+      "angle": "Discuss data quality, access, metadata, governance, chunking, labeling, and ownership.",
+      "keywords": [
+        "AI data readiness",
+        "data quality",
+        "enterprise AI",
+        "AI strategy"
+      ],
+      "image_idea": "Messy data warehouse cleaned into AI-ready knowledge layers."
+    },
+    {
+      "day": 84,
+      "title": "AI Agents for Enterprises: Why Legacy Systems Are the Real Boss Fight",
+      "category": "Enterprise AI",
+      "angle": "Explain integration challenges with ERP, CRM, HRMS, permissions, APIs, and old workflows.",
+      "keywords": [
+        "enterprise AI agents",
+        "legacy systems",
+        "AI integration"
+      ],
+      "image_idea": "Agent trying to connect modern workflow to legacy system maze."
+    },
+    {
+      "day": 85,
+      "title": "Enterprise AI Buying Guide: Do You Need a Tool, Platform, or Therapist?",
+      "category": "Enterprise AI",
+      "angle": "Help choose between point tools, platforms, custom builds, and workflow automation.",
+      "keywords": [
+        "enterprise AI tools",
+        "AI platform",
+        "agentic AI tools",
+        "AI buying guide"
+      ],
+      "image_idea": "Decision matrix for buying AI software."
+    },
+    {
+      "day": 86,
+      "title": "AI ROI: How to Measure Value Without Inventing Fantasy Math",
+      "category": "AI Strategy",
+      "angle": "Define productivity, revenue, cost savings, quality, speed, risk, and adoption metrics.",
+      "keywords": [
+        "AI ROI",
+        "AI metrics",
+        "AI business value",
+        "AI strategy"
+      ],
+      "image_idea": "ROI dashboard balancing time saved, quality, cost, and risk."
+    },
+    {
+      "day": 87,
+      "title": "AI Adoption Playbook: From Pilot Purgatory to Production",
+      "category": "AI Strategy",
+      "angle": "Show how to move from experiments to production with champions, governance, evals, and training.",
+      "keywords": [
+        "AI adoption",
+        "AI pilot",
+        "enterprise AI strategy",
+        "AI transformation"
+      ],
+      "image_idea": "Roadmap from idea, pilot, evaluation, production, scaling."
+    },
+    {
+      "day": 88,
+      "title": "AI Skills for 2026: What Builders Should Learn Next",
+      "category": "Career and Learning",
+      "angle": "List practical skills: prompting, RAG, agents, evals, data, security, product thinking.",
+      "keywords": [
+        "AI skills 2026",
+        "learn AI",
+        "AI career",
+        "AI builders"
+      ],
+      "image_idea": "Skill tree for AI builders."
+    },
+    {
+      "day": 89,
+      "title": "The Future of AI Interfaces: Chat Is Not the Final Form",
+      "category": "Future of AI",
+      "angle": "Explore agents, voice, ambient AI, workflow-native AI, multimodal UI, and proactive systems.",
+      "keywords": [
+        "future of AI",
+        "AI interfaces",
+        "ambient AI",
+        "AI UX"
+      ],
+      "image_idea": "Evolution from command line to GUI to chat to agentic interface."
+    },
+    {
+      "day": 90,
+      "title": "90 Days Later: What AI Is Really Becoming",
+      "category": "Series Finale",
+      "angle": "Wrap the series with a practical view of AI as infrastructure, coworker, interface, and automation layer.",
+      "keywords": [
+        "AI future",
+        "agentic AI",
+        "generative AI",
+        "AI transformation"
+      ],
+      "image_idea": "Summary map connecting models, agents, tools, governance, and human judgment."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "day": 4,
+  "title": "Prompt Engineering Is Not Dead, It Just Got a Real Job",
+  "slug": "prompt-engineering-is-not-dead-it-just-got-a-real-job",
+  "series": "90 Days of AI",
+  "category": "Prompting",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "Prompt Engineering Is Not Dead, It Just Got a Real Job",
+  "meta_description": "Move beyond clever prompts into context design, constraints, examples, and output validation.",
+  "keywords": [
+    "prompt engineering",
+    "AI prompts",
+    "context engineering"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 4 of 90 Days of AI: Prompt Engineering Is Not Dead, It Just Got a Real Job. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

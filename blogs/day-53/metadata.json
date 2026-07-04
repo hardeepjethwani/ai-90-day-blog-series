@@ -1,0 +1,26 @@
+{
+  "day": 53,
+  "title": "AI Phishing and Deepfakes: Trust, But Verify Like Your Inbox Depends on It",
+  "slug": "ai-phishing-and-deepfakes-trust-but-verify-like-your-inbox-depends-on-it",
+  "series": "90 Days of AI",
+  "category": "AI Security",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "AI Phishing and Deepfakes: Trust, But Verify Like Your Inbox Depends on It",
+  "meta_description": "Explain synthetic voice/video scams, phishing automation, verification habits, and organization controls.",
+  "keywords": [
+    "AI phishing",
+    "deepfakes",
+    "AI scams",
+    "synthetic media"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 53 of 90 Days of AI: AI Phishing and Deepfakes: Trust, But Verify Like Your Inbox Depends on It. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

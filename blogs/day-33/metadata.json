@@ -1,0 +1,25 @@
+{
+  "day": 33,
+  "title": "AI Video Generation: From Prompt to Moving Pixels",
+  "slug": "ai-video-generation-from-prompt-to-moving-pixels",
+  "series": "90 Days of AI",
+  "category": "Generative Media",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "AI Video Generation: From Prompt to Moving Pixels",
+  "meta_description": "Explain text-to-video, image-to-video, storyboarding, limitations, and business uses.",
+  "keywords": [
+    "AI video generation",
+    "text to video",
+    "generative video"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 33 of 90 Days of AI: AI Video Generation: From Prompt to Moving Pixels. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

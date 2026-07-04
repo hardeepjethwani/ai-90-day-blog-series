@@ -1,0 +1,26 @@
+{
+  "day": 40,
+  "title": "AI Document Assistants: PDFs Finally Meet Their Match",
+  "slug": "ai-document-assistants-pdfs-finally-meet-their-match",
+  "series": "90 Days of AI",
+  "category": "AI Tools",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "AI Document Assistants: PDFs Finally Meet Their Match",
+  "meta_description": "Cover PDF Q&A, extraction, summarization, contract review, citations, and risks.",
+  "keywords": [
+    "AI document assistant",
+    "PDF AI",
+    "document AI",
+    "contract AI"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 40 of 90 Days of AI: AI Document Assistants: PDFs Finally Meet Their Match. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

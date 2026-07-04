@@ -1,0 +1,26 @@
+{
+  "day": 17,
+  "title": "MCP Explained: Why AI Tools Need a Common Plug",
+  "slug": "mcp-explained-why-ai-tools-need-a-common-plug",
+  "series": "90 Days of AI",
+  "category": "AI Protocols",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "MCP Explained: Why AI Tools Need a Common Plug",
+  "meta_description": "Explain Model Context Protocol-style tool integration and why standard connectors matter.",
+  "keywords": [
+    "MCP",
+    "Model Context Protocol",
+    "AI tools",
+    "agent protocols"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 17 of 90 Days of AI: MCP Explained: Why AI Tools Need a Common Plug. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

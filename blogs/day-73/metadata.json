@@ -1,0 +1,26 @@
+{
+  "day": 73,
+  "title": "Prompt Caching and Cost Optimization: Make AI Cheaper Without Making It Worse",
+  "slug": "prompt-caching-and-cost-optimization-make-ai-cheaper-without-making-it-worse",
+  "series": "90 Days of AI",
+  "category": "Production AI",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "Prompt Caching and Cost Optimization: Make AI Cheaper Without Making It Worse",
+  "meta_description": "Cover caching, batching, smaller models, RAG tuning, output limits, and routing.",
+  "keywords": [
+    "AI cost optimization",
+    "prompt caching",
+    "LLM cost",
+    "AI infrastructure"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 73 of 90 Days of AI: Prompt Caching and Cost Optimization: Make AI Cheaper Without Making It Worse. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/ai_workflow_checklist.py"
+  ]
+}

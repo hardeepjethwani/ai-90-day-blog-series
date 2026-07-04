@@ -1,0 +1,26 @@
+{
+  "day": 29,
+  "title": "Evals: Unit Tests for AI's Squishy Brain",
+  "slug": "evals-unit-tests-for-ai-s-squishy-brain",
+  "series": "90 Days of AI",
+  "category": "Production AI",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "Evals: Unit Tests for AI's Squishy Brain",
+  "meta_description": "Explain offline evals, golden datasets, human grading, regression tests, and rubrics.",
+  "keywords": [
+    "LLM evals",
+    "AI evaluation",
+    "model testing",
+    "AI quality"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 29 of 90 Days of AI: Evals: Unit Tests for AI's Squishy Brain. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/ai_workflow_checklist.py"
+  ]
+}

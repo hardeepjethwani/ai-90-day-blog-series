@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+  <title id="title">Tokenization flow</title>
+  <desc id="desc">Text is converted into token pieces, token IDs, vectors, and then sent into the model.</desc>
+  <rect width="1200" height="675" fill="#f8fafc"/>
+  <rect x="55" y="55" width="1090" height="565" rx="28" fill="#ffffff" stroke="#dbe4ef" stroke-width="2"/>
+  <text x="95" y="118" font-family="Arial, sans-serif" font-size="38" font-weight="800" fill="#111827">Flow 1: Text becomes tokens</text>
+  <text x="95" y="158" font-family="Arial, sans-serif" font-size="21" fill="#52606d">The model does not read your paragraph. It gets bite-sized text snacks.</text>
+
+  <rect x="95" y="225" width="285" height="110" rx="18" fill="#eff6ff" stroke="#93c5fd" stroke-width="2"/>
+  <text x="125" y="267" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#1e3a8a">Input text</text>
+  <text x="125" y="305" font-family="Arial, sans-serif" font-size="25" fill="#1e3a8a">"AI explains code"</text>
+  <path d="M405 280 H505" stroke="#64748b" stroke-width="4" stroke-linecap="round"/>
+  <path d="M505 280 l-14 -10 v20 z" fill="#64748b"/>
+
+  <rect x="530" y="205" width="575" height="150" rx="18" fill="#ecfdf5" stroke="#6ee7b7" stroke-width="2"/>
+  <text x="565" y="250" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#065f46">Token pieces</text>
+  <g font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#065f46">
+    <rect x="565" y="280" width="64" height="42" rx="12" fill="#bbf7d0"/><text x="586" y="308">AI</text>
+    <rect x="643" y="280" width="118" height="42" rx="12" fill="#bbf7d0"/><text x="665" y="308">explains</text>
+    <rect x="775" y="280" width="78" height="42" rx="12" fill="#bbf7d0"/><text x="796" y="308">code</text>
+  </g>
+
+  <rect x="95" y="430" width="320" height="110" rx="18" fill="#fffbeb" stroke="#fcd34d" stroke-width="2"/>
+  <text x="125" y="472" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#92400e">Token IDs</text>
+  <text x="125" y="512" font-family="Arial, sans-serif" font-size="24" fill="#92400e">[15836, 9756, 2082]</text>
+  <path d="M440 485 H540" stroke="#64748b" stroke-width="4" stroke-linecap="round"/>
+  <path d="M540 485 l-14 -10 v20 z" fill="#64748b"/>
+
+  <rect x="565" y="415" width="540" height="140" rx="18" fill="#f5f3ff" stroke="#c4b5fd" stroke-width="2"/>
+  <text x="600" y="463" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#5b21b6">Vectors</text>
+  <text x="600" y="503" font-family="Arial, sans-serif" font-size="22" fill="#5b21b6">Numbers that carry meaning, position, and context</text>
+  <text x="600" y="535" font-family="Arial, sans-serif" font-size="20" fill="#7c3aed">Beautiful sentence, meet spreadsheet energy.</text>
+</svg>

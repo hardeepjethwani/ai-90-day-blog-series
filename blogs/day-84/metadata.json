@@ -1,0 +1,25 @@
+{
+  "day": 84,
+  "title": "AI Agents for Enterprises: Why Legacy Systems Are the Real Boss Fight",
+  "slug": "ai-agents-for-enterprises-why-legacy-systems-are-the-real-boss-fight",
+  "series": "90 Days of AI",
+  "category": "Enterprise AI",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "AI Agents for Enterprises: Why Legacy Systems Are the Real Boss Fight",
+  "meta_description": "Explain integration challenges with ERP, CRM, HRMS, permissions, APIs, and old workflows.",
+  "keywords": [
+    "enterprise AI agents",
+    "legacy systems",
+    "AI integration"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 84 of 90 Days of AI: AI Agents for Enterprises: Why Legacy Systems Are the Real Boss Fight. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

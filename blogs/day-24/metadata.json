@@ -1,0 +1,26 @@
+{
+  "day": 24,
+  "title": "AI Test Generation: Great Servant, Suspicious Master",
+  "slug": "ai-test-generation-great-servant-suspicious-master",
+  "series": "90 Days of AI",
+  "category": "AI Coding",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "AI Test Generation: Great Servant, Suspicious Master",
+  "meta_description": "Show how to generate useful tests while avoiding shallow assertion theater.",
+  "keywords": [
+    "AI test generation",
+    "unit tests",
+    "AI coding",
+    "QA automation"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 24 of 90 Days of AI: AI Test Generation: Great Servant, Suspicious Master. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/ai_workflow_checklist.py"
+  ]
+}

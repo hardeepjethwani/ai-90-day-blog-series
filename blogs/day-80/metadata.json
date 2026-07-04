@@ -1,0 +1,25 @@
+{
+  "day": 80,
+  "title": "AI for Research: Literature Reviews Without Drowning in PDFs",
+  "slug": "ai-for-research-literature-reviews-without-drowning-in-pdfs",
+  "series": "90 Days of AI",
+  "category": "AI Tools",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "AI for Research: Literature Reviews Without Drowning in PDFs",
+  "meta_description": "Explore research agents, citation checking, paper summarization, and source reliability.",
+  "keywords": [
+    "AI research assistant",
+    "AI literature review",
+    "academic AI"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 80 of 90 Days of AI: AI for Research: Literature Reviews Without Drowning in PDFs. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

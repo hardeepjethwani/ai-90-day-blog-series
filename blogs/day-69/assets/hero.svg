@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="788" viewBox="0 0 1400 788" role="img" aria-labelledby="title desc">
+  <title id="title">Day 69: Model Distillation: Teaching a Smaller Model the Big Model's Tricks</title>
+  <desc id="desc">Modern blog hero graphic for Model Distillation: Teaching a Smaller Model the Big Model's Tricks.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff7ed"/>
+      <stop offset="0.55" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#ffedd5"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#0f172a" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="788" fill="url(#bg)"/>
+  <circle cx="1130" cy="130" r="160" fill="#fb923c" opacity="0.18"/>
+  <circle cx="190" cy="665" r="220" fill="#fb923c" opacity="0.14"/>
+  <text x="70" y="90" font-family="Arial, sans-serif" font-size="26" font-weight="800" fill="#c2410c">90 DAYS OF AI • DAY 69</text>
+  <text x="70" y="165" font-family="Arial, sans-serif" font-size="52" font-weight="900" fill="#111827">Model Distillation: Teaching a Smaller Model the Big</text>
+  <text x="70" y="223" font-family="Arial, sans-serif" font-size="52" font-weight="900" fill="#111827">Model's Tricks</text>
+  <text x="73" y="272" font-family="Arial, sans-serif" font-size="25" fill="#475569">AI Models made practical, visual, and slightly less allergic to fun.</text>
+  <g filter="url(#shadow)">
+    <rect x="90" y="330" width="230" height="145" rx="28" fill="#ffffff" stroke="#fb923c" stroke-width="3"/>
+    <rect x="405" y="290" width="230" height="225" rx="32" fill="#c2410c" opacity="0.92"/>
+    <rect x="720" y="330" width="230" height="145" rx="28" fill="#ffffff" stroke="#fb923c" stroke-width="3"/>
+    <rect x="1035" y="290" width="230" height="225" rx="32" fill="#111827" opacity="0.94"/>
+  </g>
+  <path d="M330 402 H390" stroke="#64748b" stroke-width="8" stroke-linecap="round"/><path d="M390 402 l-22 -15 v30 z" fill="#64748b"/>
+  <path d="M650 402 H710" stroke="#64748b" stroke-width="8" stroke-linecap="round"/><path d="M710 402 l-22 -15 v30 z" fill="#64748b"/>
+  <path d="M965 402 H1025" stroke="#64748b" stroke-width="8" stroke-linecap="round"/><path d="M1025 402 l-22 -15 v30 z" fill="#64748b"/>
+  <text x="205" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="800" fill="#c2410c">Understand</text>
+  <text x="205" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#475569">plain English</text>
+  <text x="520" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="800" fill="#ffffff">Apply</text>
+  <text x="520" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#dbeafe">real workflow</text>
+  <text x="835" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="800" fill="#c2410c">Validate</text>
+  <text x="835" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#475569">trust, but test</text>
+  <text x="1150" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="800" fill="#ffffff">Ship</text>
+  <text x="1150" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#e5e7eb">with guardrails</text>
+  <rect x="70" y="635" width="600" height="76" rx="24" fill="#111827"/>
+  <text x="105" y="683" font-family="Arial, sans-serif" font-size="24" font-weight="800" fill="#ffffff">Useful AI, minus the buzzword fog.</text>
+</svg>

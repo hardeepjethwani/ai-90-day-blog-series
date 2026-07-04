@@ -1,0 +1,26 @@
+{
+  "day": 76,
+  "title": "The AI Manager: Why Humans May Soon Manage Agents Like Teams",
+  "slug": "the-ai-manager-why-humans-may-soon-manage-agents-like-teams",
+  "series": "90 Days of AI",
+  "category": "Future of Work",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "The AI Manager: Why Humans May Soon Manage Agents Like Teams",
+  "meta_description": "Discuss people delegating to agents, reviewing work, setting goals, and judging tradeoffs.",
+  "keywords": [
+    "AI manager",
+    "future of work",
+    "AI agents",
+    "agentic AI"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 76 of 90 Days of AI: The AI Manager: Why Humans May Soon Manage Agents Like Teams. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

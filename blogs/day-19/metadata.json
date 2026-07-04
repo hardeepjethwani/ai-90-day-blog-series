@@ -1,0 +1,26 @@
+{
+  "day": 19,
+  "title": "Computer-Using Agents: AI That Clicks Buttons So You Do Not Have To",
+  "slug": "computer-using-agents-ai-that-clicks-buttons-so-you-do-not-have-to",
+  "series": "90 Days of AI",
+  "category": "Agentic AI",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "Computer-Using Agents: AI That Clicks Buttons So You Do Not Have To",
+  "meta_description": "Explain agents that use browsers/desktops, practical workflows, and risks.",
+  "keywords": [
+    "computer use AI",
+    "browser agents",
+    "AI automation",
+    "AI agents"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 19 of 90 Days of AI: Computer-Using Agents: AI That Clicks Buttons So You Do Not Have To. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

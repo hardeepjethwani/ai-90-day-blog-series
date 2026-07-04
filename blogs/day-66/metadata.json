@@ -1,0 +1,26 @@
+{
+  "day": 66,
+  "title": "AI Memory: What Should Agents Remember and What Should They Forget?",
+  "slug": "ai-memory-what-should-agents-remember-and-what-should-they-forget",
+  "series": "90 Days of AI",
+  "category": "Agentic AI",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "AI Memory: What Should Agents Remember and What Should They Forget?",
+  "meta_description": "Discuss short-term memory, long-term memory, user preferences, privacy, and retrieval.",
+  "keywords": [
+    "AI memory",
+    "agent memory",
+    "personalized AI",
+    "LLM context"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 66 of 90 Days of AI: AI Memory: What Should Agents Remember and What Should They Forget?. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

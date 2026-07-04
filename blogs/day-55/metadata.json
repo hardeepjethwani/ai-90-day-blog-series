@@ -1,0 +1,25 @@
+{
+  "day": 55,
+  "title": "Data Privacy in AI Apps: Do Not Feed the Model Your Crown Jewels",
+  "slug": "data-privacy-in-ai-apps-do-not-feed-the-model-your-crown-jewels",
+  "series": "90 Days of AI",
+  "category": "AI Governance",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "Data Privacy in AI Apps: Do Not Feed the Model Your Crown Jewels",
+  "meta_description": "Discuss sensitive data, retention, vendor settings, redaction, access control, and policy.",
+  "keywords": [
+    "AI privacy",
+    "data privacy",
+    "LLM data security"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 55 of 90 Days of AI: Data Privacy in AI Apps: Do Not Feed the Model Your Crown Jewels. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

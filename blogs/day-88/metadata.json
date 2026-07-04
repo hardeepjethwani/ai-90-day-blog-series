@@ -1,0 +1,26 @@
+{
+  "day": 88,
+  "title": "AI Skills for 2026: What Builders Should Learn Next",
+  "slug": "ai-skills-for-2026-what-builders-should-learn-next",
+  "series": "90 Days of AI",
+  "category": "Career and Learning",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "AI Skills for 2026: What Builders Should Learn Next",
+  "meta_description": "List practical skills: prompting, RAG, agents, evals, data, security, product thinking.",
+  "keywords": [
+    "AI skills 2026",
+    "learn AI",
+    "AI career",
+    "AI builders"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 88 of 90 Days of AI: AI Skills for 2026: What Builders Should Learn Next. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

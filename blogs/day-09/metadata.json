@@ -1,0 +1,25 @@
+{
+  "day": 9,
+  "title": "RAG Explained: Giving AI an Open-Book Exam",
+  "slug": "rag-explained-giving-ai-an-open-book-exam",
+  "series": "90 Days of AI",
+  "category": "RAG and Search",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "RAG Explained: Giving AI an Open-Book Exam",
+  "meta_description": "Explain retrieval-augmented generation, chunking, embeddings, citations, and common mistakes.",
+  "keywords": [
+    "RAG",
+    "retrieval augmented generation",
+    "AI knowledge base"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 9 of 90 Days of AI: RAG Explained: Giving AI an Open-Book Exam. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/mini_retrieval_demo.py"
+  ]
+}

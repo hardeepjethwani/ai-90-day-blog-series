@@ -1,0 +1,26 @@
+{
+  "day": 77,
+  "title": "AI Teammates: Helpful Coworkers or Calendar Invaders?",
+  "slug": "ai-teammates-helpful-coworkers-or-calendar-invaders",
+  "series": "90 Days of AI",
+  "category": "Future of Work",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "AI Teammates: Helpful Coworkers or Calendar Invaders?",
+  "meta_description": "Explore AI collaborators in meetings, docs, project management, and decision support.",
+  "keywords": [
+    "AI teammates",
+    "AI at work",
+    "collaborative AI",
+    "future of work"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 77 of 90 Days of AI: AI Teammates: Helpful Coworkers or Calendar Invaders?. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

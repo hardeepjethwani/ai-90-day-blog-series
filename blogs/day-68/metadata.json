@@ -1,0 +1,25 @@
+{
+  "day": 68,
+  "title": "Synthetic Data: Training AI With Data AI Helped Create",
+  "slug": "synthetic-data-training-ai-with-data-ai-helped-create",
+  "series": "90 Days of AI",
+  "category": "AI Models",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "Synthetic Data: Training AI With Data AI Helped Create",
+  "meta_description": "Explore synthetic data for training/evals, privacy, quality, contamination, and bias.",
+  "keywords": [
+    "synthetic data",
+    "AI training data",
+    "model evaluation"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 68 of 90 Days of AI: Synthetic Data: Training AI With Data AI Helped Create. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

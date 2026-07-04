@@ -1,0 +1,26 @@
+{
+  "day": 87,
+  "title": "AI Adoption Playbook: From Pilot Purgatory to Production",
+  "slug": "ai-adoption-playbook-from-pilot-purgatory-to-production",
+  "series": "90 Days of AI",
+  "category": "AI Strategy",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "AI Adoption Playbook: From Pilot Purgatory to Production",
+  "meta_description": "Show how to move from experiments to production with champions, governance, evals, and training.",
+  "keywords": [
+    "AI adoption",
+    "AI pilot",
+    "enterprise AI strategy",
+    "AI transformation"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 87 of 90 Days of AI: AI Adoption Playbook: From Pilot Purgatory to Production. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

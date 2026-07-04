@@ -1,0 +1,25 @@
+{
+  "day": 56,
+  "title": "AI Governance: The Seatbelt Nobody Wants Until the Demo Drives Off a Cliff",
+  "slug": "ai-governance-the-seatbelt-nobody-wants-until-the-demo-drives-off-a-cliff",
+  "series": "90 Days of AI",
+  "category": "AI Governance",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "AI Governance: The Seatbelt Nobody Wants Until the Demo Drives Off a Cliff",
+  "meta_description": "Explain ownership, approval, risk tiers, audits, policies, and human accountability.",
+  "keywords": [
+    "AI governance",
+    "responsible AI",
+    "AI risk management"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 56 of 90 Days of AI: AI Governance: The Seatbelt Nobody Wants Until the Demo Drives Off a Cliff. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

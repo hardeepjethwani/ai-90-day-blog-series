@@ -1,0 +1,26 @@
+{
+  "day": 6,
+  "title": "Tokens Are the New Compute Meter: Why AI Costs Feel Weird",
+  "slug": "tokens-are-the-new-compute-meter-why-ai-costs-feel-weird",
+  "series": "90 Days of AI",
+  "category": "AI Economics",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "Tokens Are the New Compute Meter: Why AI Costs Feel Weird",
+  "meta_description": "Explain input tokens, output tokens, context size, caching, and why long answers cost more.",
+  "keywords": [
+    "AI tokens",
+    "LLM cost",
+    "inference cost",
+    "AI pricing"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 6 of 90 Days of AI: Tokens Are the New Compute Meter: Why AI Costs Feel Weird. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "day": 49,
+  "title": "AI for Legal Work: Helpful Research Assistant, Not Your Lawyer in a Hoodie",
+  "slug": "ai-for-legal-work-helpful-research-assistant-not-your-lawyer-in-a-hoodie",
+  "series": "90 Days of AI",
+  "category": "Business AI",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "AI for Legal Work: Helpful Research Assistant, Not Your Lawyer in a Hoodie",
+  "meta_description": "Explain legal research, contract review, clause extraction, citations, confidentiality, and review.",
+  "keywords": [
+    "legal AI",
+    "contract AI",
+    "AI legal research"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 49 of 90 Days of AI: AI for Legal Work: Helpful Research Assistant, Not Your Lawyer in a Hoodie. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

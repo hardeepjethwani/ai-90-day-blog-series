@@ -1,0 +1,26 @@
+{
+  "day": 67,
+  "title": "Mixture of Experts: Why Some Models Use Specialist Sub-Brains",
+  "slug": "mixture-of-experts-why-some-models-use-specialist-sub-brains",
+  "series": "90 Days of AI",
+  "category": "AI Models",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "Mixture of Experts: Why Some Models Use Specialist Sub-Brains",
+  "meta_description": "Explain MoE architecture simply, benefits, routing, cost, and limitations.",
+  "keywords": [
+    "mixture of experts",
+    "MoE",
+    "LLM architecture",
+    "AI models"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 67 of 90 Days of AI: Mixture of Experts: Why Some Models Use Specialist Sub-Brains. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

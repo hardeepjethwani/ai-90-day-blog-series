@@ -1,0 +1,26 @@
+{
+  "day": 26,
+  "title": "AI for API Integration: From Docs to Working Calls Faster",
+  "slug": "ai-for-api-integration-from-docs-to-working-calls-faster",
+  "series": "90 Days of AI",
+  "category": "AI Coding",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "AI for API Integration: From Docs to Working Calls Faster",
+  "meta_description": "Use AI to read docs, draft requests, handle errors, and generate examples.",
+  "keywords": [
+    "AI API integration",
+    "developer tools",
+    "API docs",
+    "LLM coding"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 26 of 90 Days of AI: AI for API Integration: From Docs to Working Calls Faster. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/ai_workflow_checklist.py"
+  ]
+}

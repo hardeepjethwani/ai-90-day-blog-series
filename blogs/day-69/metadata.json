@@ -1,0 +1,26 @@
+{
+  "day": 69,
+  "title": "Model Distillation: Teaching a Smaller Model the Big Model's Tricks",
+  "slug": "model-distillation-teaching-a-smaller-model-the-big-model-s-tricks",
+  "series": "90 Days of AI",
+  "category": "AI Models",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "Model Distillation: Teaching a Smaller Model the Big Model's Tricks",
+  "meta_description": "Explain distillation, cost savings, latency, domain models, and tradeoffs.",
+  "keywords": [
+    "model distillation",
+    "AI optimization",
+    "small models",
+    "LLM compression"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 69 of 90 Days of AI: Model Distillation: Teaching a Smaller Model the Big Model's Tricks. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "day": 47,
+  "title": "AI for HR: Recruiting, Onboarding, and the Bias Trap",
+  "slug": "ai-for-hr-recruiting-onboarding-and-the-bias-trap",
+  "series": "90 Days of AI",
+  "category": "Business AI",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "AI for HR: Recruiting, Onboarding, and the Bias Trap",
+  "meta_description": "Discuss resume screening, employee support, onboarding copilots, fairness, and auditability.",
+  "keywords": [
+    "AI HR",
+    "AI recruiting",
+    "HR automation",
+    "AI bias"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 47 of 90 Days of AI: AI for HR: Recruiting, Onboarding, and the Bias Trap. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

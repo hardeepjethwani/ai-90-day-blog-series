@@ -1,0 +1,26 @@
+{
+  "day": 81,
+  "title": "AI for Data Analysis: From CSV Chaos to Useful Insight",
+  "slug": "ai-for-data-analysis-from-csv-chaos-to-useful-insight",
+  "series": "90 Days of AI",
+  "category": "Data and AI",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "AI for Data Analysis: From CSV Chaos to Useful Insight",
+  "meta_description": "Show how AI helps inspect data, write queries, create charts, and explain findings.",
+  "keywords": [
+    "AI data analysis",
+    "data science AI",
+    "AI charts",
+    "analytics AI"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 81 of 90 Days of AI: AI for Data Analysis: From CSV Chaos to Useful Insight. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/simple_analysis.py"
+  ]
+}

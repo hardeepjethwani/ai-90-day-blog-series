@@ -1,0 +1,26 @@
+{
+  "day": 37,
+  "title": "AI Avatars and Digital Humans: Helpful Interface or Too Much Eye Contact?",
+  "slug": "ai-avatars-and-digital-humans-helpful-interface-or-too-much-eye-contact",
+  "series": "90 Days of AI",
+  "category": "Generative Media",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "AI Avatars and Digital Humans: Helpful Interface or Too Much Eye Contact?",
+  "meta_description": "Cover avatars for training, sales, education, support, and the uncanny valley.",
+  "keywords": [
+    "AI avatars",
+    "digital humans",
+    "synthetic media",
+    "AI video"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 37 of 90 Days of AI: AI Avatars and Digital Humans: Helpful Interface or Too Much Eye Contact?. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

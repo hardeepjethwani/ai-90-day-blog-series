@@ -1,0 +1,26 @@
+{
+  "day": 51,
+  "title": "AI in Education: Tutor, Teaching Assistant, or Homework Shortcut?",
+  "slug": "ai-in-education-tutor-teaching-assistant-or-homework-shortcut",
+  "series": "90 Days of AI",
+  "category": "AI Industries",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "AI in Education: Tutor, Teaching Assistant, or Homework Shortcut?",
+  "meta_description": "Discuss personalized tutors, lesson planning, assessment, academic integrity, and access.",
+  "keywords": [
+    "AI education",
+    "AI tutor",
+    "edtech AI",
+    "personalized learning"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 51 of 90 Days of AI: AI in Education: Tutor, Teaching Assistant, or Homework Shortcut?. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

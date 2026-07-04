@@ -1,0 +1,26 @@
+{
+  "day": 7,
+  "title": "Temperature, Top-p, and Why Your AI Sometimes Gets Spicy",
+  "slug": "temperature-top-p-and-why-your-ai-sometimes-gets-spicy",
+  "series": "90 Days of AI",
+  "category": "AI Foundations",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "Temperature, Top-p, and Why Your AI Sometimes Gets Spicy",
+  "meta_description": "Explain decoding settings using examples for coding, brainstorming, and structured JSON.",
+  "keywords": [
+    "temperature",
+    "top-p",
+    "LLM settings",
+    "AI randomness"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 7 of 90 Days of AI: Temperature, Top-p, and Why Your AI Sometimes Gets Spicy. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

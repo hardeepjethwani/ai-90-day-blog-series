@@ -1,0 +1,26 @@
+{
+  "day": 62,
+  "title": "On-Device AI: Why Your Laptop Wants to Think Locally",
+  "slug": "on-device-ai-why-your-laptop-wants-to-think-locally",
+  "series": "90 Days of AI",
+  "category": "AI Infrastructure",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "On-Device AI: Why Your Laptop Wants to Think Locally",
+  "meta_description": "Cover local models, privacy, latency, offline use, NPUs, and edge constraints.",
+  "keywords": [
+    "on-device AI",
+    "local AI",
+    "edge AI",
+    "AI PC"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 62 of 90 Days of AI: On-Device AI: Why Your Laptop Wants to Think Locally. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

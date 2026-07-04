@@ -1,0 +1,26 @@
+{
+  "day": 2,
+  "title": "Generative AI vs Traditional AI: Same Family, Different Superpowers",
+  "slug": "generative-ai-vs-traditional-ai-same-family-different-superpowers",
+  "series": "90 Days of AI",
+  "category": "AI Foundations",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "Generative AI vs Traditional AI: Same Family, Different Superpowers",
+  "meta_description": "Compare predictive AI, rule-based systems, and generative models with practical examples.",
+  "keywords": [
+    "generative AI",
+    "traditional AI",
+    "machine learning",
+    "AI basics"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 2 of 90 Days of AI: Generative AI vs Traditional AI: Same Family, Different Superpowers. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

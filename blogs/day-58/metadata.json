@@ -1,0 +1,26 @@
+{
+  "day": 58,
+  "title": "AI Regulations in 2026: What Builders Should Watch",
+  "slug": "ai-regulations-in-2026-what-builders-should-watch",
+  "series": "90 Days of AI",
+  "category": "AI Governance",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "AI Regulations in 2026: What Builders Should Watch",
+  "meta_description": "Summarize major regulatory themes: risk classification, disclosures, privacy, copyright, and audits.",
+  "keywords": [
+    "AI regulation 2026",
+    "AI compliance",
+    "AI law",
+    "responsible AI"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 58 of 90 Days of AI: AI Regulations in 2026: What Builders Should Watch. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "day": 63,
+  "title": "AI PCs and Neural Chips: What NPUs Actually Do",
+  "slug": "ai-pcs-and-neural-chips-what-npus-actually-do",
+  "series": "90 Days of AI",
+  "category": "AI Infrastructure",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "AI PCs and Neural Chips: What NPUs Actually Do",
+  "meta_description": "Explain NPUs, GPUs, CPUs, local inference, battery life, and practical user benefits.",
+  "keywords": [
+    "AI PC",
+    "NPU",
+    "AI chips",
+    "local inference"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 63 of 90 Days of AI: AI PCs and Neural Chips: What NPUs Actually Do. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

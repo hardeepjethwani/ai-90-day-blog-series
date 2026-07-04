@@ -1,0 +1,25 @@
+{
+  "day": 46,
+  "title": "AI Sales Assistants: CRM Updates Without the Ritual Suffering",
+  "slug": "ai-sales-assistants-crm-updates-without-the-ritual-suffering",
+  "series": "90 Days of AI",
+  "category": "Business AI",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "AI Sales Assistants: CRM Updates Without the Ritual Suffering",
+  "meta_description": "Explore lead research, call summaries, follow-up drafting, CRM automation, and risks.",
+  "keywords": [
+    "AI sales assistant",
+    "CRM AI",
+    "sales automation"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 46 of 90 Days of AI: AI Sales Assistants: CRM Updates Without the Ritual Suffering. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "day": 34,
+  "title": "AI Image Generation in 2026: What Changed and What Still Looks Weird",
+  "slug": "ai-image-generation-in-2026-what-changed-and-what-still-looks-weird",
+  "series": "90 Days of AI",
+  "category": "Generative Media",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "AI Image Generation in 2026: What Changed and What Still Looks Weird",
+  "meta_description": "Cover image models, editing, product visuals, brand consistency, and failure cases.",
+  "keywords": [
+    "AI image generation",
+    "generative AI images",
+    "AI design tools"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 34 of 90 Days of AI: AI Image Generation in 2026: What Changed and What Still Looks Weird. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

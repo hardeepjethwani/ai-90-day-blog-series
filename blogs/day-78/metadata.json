@@ -1,0 +1,25 @@
+{
+  "day": 78,
+  "title": "AI Meetings: Summaries Are Just the Beginning",
+  "slug": "ai-meetings-summaries-are-just-the-beginning",
+  "series": "90 Days of AI",
+  "category": "Future of Work",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "AI Meetings: Summaries Are Just the Beginning",
+  "meta_description": "Cover meeting agents, action items, decisions, follow-ups, CRM updates, and privacy.",
+  "keywords": [
+    "AI meeting assistant",
+    "meeting summaries",
+    "workplace AI"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 78 of 90 Days of AI: AI Meetings: Summaries Are Just the Beginning. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

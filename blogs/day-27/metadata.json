@@ -1,0 +1,26 @@
+{
+  "day": 27,
+  "title": "AI DevOps: Logs, Incidents, Runbooks, and the Calm Button We Deserve",
+  "slug": "ai-devops-logs-incidents-runbooks-and-the-calm-button-we-deserve",
+  "series": "90 Days of AI",
+  "category": "AI Operations",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "AI DevOps: Logs, Incidents, Runbooks, and the Calm Button We Deserve",
+  "meta_description": "Explore AI for incident summaries, root-cause hints, runbook execution, and alert noise reduction.",
+  "keywords": [
+    "AI DevOps",
+    "AIOps",
+    "incident management",
+    "AI operations"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 27 of 90 Days of AI: AI DevOps: Logs, Incidents, Runbooks, and the Calm Button We Deserve. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

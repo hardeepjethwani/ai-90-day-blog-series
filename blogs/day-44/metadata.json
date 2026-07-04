@@ -1,0 +1,25 @@
+{
+  "day": 44,
+  "title": "AI Commerce: When Agents Start Shopping for Humans",
+  "slug": "ai-commerce-when-agents-start-shopping-for-humans",
+  "series": "90 Days of AI",
+  "category": "AI Commerce",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "AI Commerce: When Agents Start Shopping for Humans",
+  "meta_description": "Explain AI agents as shoppers, product data readiness, conversational commerce, and brand visibility.",
+  "keywords": [
+    "AI commerce",
+    "agentic commerce",
+    "AI shopping agents"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 44 of 90 Days of AI: AI Commerce: When Agents Start Shopping for Humans. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}

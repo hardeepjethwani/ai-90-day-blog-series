@@ -1,0 +1,26 @@
+{
+  "day": 8,
+  "title": "Embeddings Explained: Search by Meaning, Not Just Keywords",
+  "slug": "embeddings-explained-search-by-meaning-not-just-keywords",
+  "series": "90 Days of AI",
+  "category": "RAG and Search",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "Embeddings Explained: Search by Meaning, Not Just Keywords",
+  "meta_description": "Teach semantic search, vector similarity, and practical uses like support docs and internal knowledge search.",
+  "keywords": [
+    "embeddings",
+    "semantic search",
+    "vector database",
+    "AI search"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 8 of 90 Days of AI: Embeddings Explained: Search by Meaning, Not Just Keywords. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/mini_retrieval_demo.py"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "day": 21,
+  "title": "Coding Agents: Pair Programmer, Debugger, or Chaos Button?",
+  "slug": "coding-agents-pair-programmer-debugger-or-chaos-button",
+  "series": "90 Days of AI",
+  "category": "AI Coding",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "Coding Agents: Pair Programmer, Debugger, or Chaos Button?",
+  "meta_description": "Evaluate coding agents, repo context, tests, diffs, reviews, and safe workflows.",
+  "keywords": [
+    "AI coding agents",
+    "AI pair programming",
+    "code generation"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 21 of 90 Days of AI: Coding Agents: Pair Programmer, Debugger, or Chaos Button?. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/ai_workflow_checklist.py"
+  ]
+}

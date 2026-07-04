@@ -1,0 +1,26 @@
+{
+  "day": 41,
+  "title": "AI Search Is Changing SEO: Welcome to GEO and Answer Engines",
+  "slug": "ai-search-is-changing-seo-welcome-to-geo-and-answer-engines",
+  "series": "90 Days of AI",
+  "category": "AI Marketing",
+  "status": "draft-ready",
+  "target_reader": "Beginners, builders, software engineers, creators, and professionals who want practical AI fluency.",
+  "meta_title": "AI Search Is Changing SEO: Welcome to GEO and Answer Engines",
+  "meta_description": "Explain generative engine optimization, answer visibility, citations, and content strategy.",
+  "keywords": [
+    "AI SEO",
+    "GEO",
+    "answer engine optimization",
+    "AI search"
+  ],
+  "canonical_platform": "Hashnode",
+  "linkedin_post_angle": "Day 41 of 90 Days of AI: AI Search Is Changing SEO: Welcome to GEO and Answer Engines. A practical breakdown with examples, diagrams, and no buzzword fog machine.",
+  "assets": [
+    "assets/hero.png",
+    "assets/concept-flow.png"
+  ],
+  "examples": [
+    "examples/practical_checklist.md"
+  ]
+}
