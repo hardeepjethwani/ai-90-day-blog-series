@@ -4,13 +4,18 @@ from __future__ import annotations
 import json
 import re
 import shutil
+import subprocess
 from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
 TOPICS_PATH = ROOT / "topics" / "topics.json"
-KAPISTRA_SOURCE = ROOT / "brand" / "kapistra-watermark.png"
-KAPISTRA_LOCAL_NAME = "kapistra-watermark.png"
+KAPISTRA_ICON_SOURCE = ROOT / "brand" / "kapistra-icon-cutout.png"
+KAPISTRA_NAME_SOURCE = ROOT / "brand" / "kapistra-name-transparent.png"
+KAPISTRA_ICON_LOCAL_NAME = "kapistra-icon-cutout.png"
+KAPISTRA_NAME_LOCAL_NAME = "kapistra-name-transparent.png"
+COVER_WIDTH = 1600
+COVER_HEIGHT = 840
 
 
 PALETTES = [
@@ -115,7 +120,6 @@ def svg_for(topic: dict) -> str:
     <rect x="1015" y="435" width="170" height="55" fill="#ffffff"/>
     <rect x="1185" y="535" width="170" height="55" fill="#ffffff"/>
   </g>
-  <image href="{KAPISTRA_LOCAL_NAME}" x="1185" y="295" width="285" height="285" opacity="0.16"/>
   <g filter="url(#textShadow)">
     <text x="110" y="105" font-family="Arial, sans-serif" font-size="38" font-style="italic" font-weight="800" fill="#ffffff">Learn with HJ</text>
     <text x="110" y="178" font-family="Arial, sans-serif" font-size="34" font-weight="900" fill="{accent_2}">90 DAYS OF AI</text>
@@ -132,11 +136,9 @@ def svg_for(topic: dict) -> str:
     <rect x="112" y="0" width="42" height="42" rx="9" fill="#ef4444"/><text x="133" y="29" text-anchor="middle" font-family="Arial" font-size="22" font-weight="900" fill="#ffffff">▶</text>
     <text x="178" y="31" font-family="Arial, sans-serif" font-size="32" font-weight="900" fill="#ffffff">@hardeepjethwani</text>
   </g>
-  <g transform="translate(1218 638)" opacity="0.94">
-    <rect x="0" y="0" width="326" height="150" rx="30" fill="#05070d" stroke="#ffffff" stroke-opacity="0.24" stroke-width="3"/>
-    <image href="{KAPISTRA_LOCAL_NAME}" x="18" y="23" width="104" height="104" opacity="0.90"/>
-    <text x="140" y="64" font-family="Arial, sans-serif" font-size="31" font-weight="900" fill="#ffffff">KAPISTRA</text>
-    <text x="140" y="103" font-family="Arial, sans-serif" font-size="21" font-weight="800" fill="{accent_2}">Learn. Build. Lead.</text>
+  <g transform="translate(1272 720)" opacity="0.82">
+    <image href="{KAPISTRA_ICON_LOCAL_NAME}" x="0" y="0" width="58" height="54" preserveAspectRatio="xMidYMid meet"/>
+    <image href="{KAPISTRA_NAME_LOCAL_NAME}" x="71" y="8" width="205" height="38" preserveAspectRatio="xMidYMid meet"/>
   </g>
   <rect x="0" y="0" width="1600" height="840" fill="none" stroke="{accent}" stroke-width="4" opacity="0.35"/>
 </svg>
@@ -155,6 +157,16 @@ def update_metadata(day_dir: Path) -> None:
     path.write_text(json.dumps(data, indent=2) + "\n")
 
 
+def render_png(svg_path: Path, png_path: Path) -> None:
+    rsvg = shutil.which("rsvg-convert") or "/opt/homebrew/bin/rsvg-convert"
+    if not Path(rsvg).exists():
+        raise RuntimeError("rsvg-convert is required to render cover PNG files.")
+    subprocess.run(
+        [rsvg, "-w", str(COVER_WIDTH), "-h", str(COVER_HEIGHT), str(svg_path), "-o", str(png_path)],
+        check=True,
+    )
+
+
 def main() -> int:
     topics = json.loads(TOPICS_PATH.read_text())["topics"]
     for topic in topics:
@@ -162,11 +174,17 @@ def main() -> int:
         day_dir = ROOT / "blogs" / f"day-{day:02d}"
         assets_dir = day_dir / "assets"
         assets_dir.mkdir(parents=True, exist_ok=True)
-        if KAPISTRA_SOURCE.exists():
-            shutil.copy2(KAPISTRA_SOURCE, assets_dir / KAPISTRA_LOCAL_NAME)
-        (assets_dir / "cover.svg").write_text(svg_for(topic))
+        for source, local_name in (
+            (KAPISTRA_ICON_SOURCE, KAPISTRA_ICON_LOCAL_NAME),
+            (KAPISTRA_NAME_SOURCE, KAPISTRA_NAME_LOCAL_NAME),
+        ):
+            if source.exists():
+                shutil.copy2(source, assets_dir / local_name)
+        cover_svg = assets_dir / "cover.svg"
+        cover_svg.write_text(svg_for(topic))
+        render_png(cover_svg, assets_dir / "cover.png")
         update_metadata(day_dir)
-    print(f"Generated {len(topics)} cover SVG files.")
+    print(f"Generated {len(topics)} cover SVG and PNG files.")
     return 0
 
 
