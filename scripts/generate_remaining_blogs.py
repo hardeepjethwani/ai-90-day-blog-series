@@ -19,12 +19,12 @@ BLOGS_DIR = ROOT / "blogs"
 
 
 PALETTES = [
-    ("#eef6ff", "#1d4ed8", "#60a5fa", "#dbeafe"),
-    ("#ecfdf5", "#047857", "#34d399", "#d1fae5"),
-    ("#fff7ed", "#c2410c", "#fb923c", "#ffedd5"),
-    ("#f5f3ff", "#6d28d9", "#a78bfa", "#ede9fe"),
-    ("#fff1f2", "#be123c", "#fb7185", "#ffe4e6"),
-    ("#f8fafc", "#334155", "#94a3b8", "#e2e8f0"),
+    ("#ecfeff", "#0f172a", "#06b6d4", "#f9f871"),
+    ("#f0fdf4", "#064e3b", "#22c55e", "#38bdf8"),
+    ("#fff7ed", "#7c2d12", "#f97316", "#a78bfa"),
+    ("#f5f3ff", "#3b0764", "#8b5cf6", "#22d3ee"),
+    ("#fff1f2", "#881337", "#fb7185", "#facc15"),
+    ("#f8fafc", "#111827", "#64748b", "#34d399"),
 ]
 
 
@@ -327,13 +327,13 @@ def hero_svg(topic: dict) -> str:
     day = topic["day"]
     title = safe_title(topic["title"])
     category = topic["category"]
-    bg, dark, accent, pale = palette(day)
-    title_lines = wrap_text(title, max_chars=52, max_lines=2)
+    bg, dark, accent, pop = palette(day)
+    title_lines = wrap_text(title, max_chars=44, max_lines=2)
     title_svg = "\n".join(
-        f'  <text x="70" y="{165 + i * 58}" font-family="Arial, sans-serif" font-size="52" font-weight="900" fill="#111827">{esc(line)}</text>'
+        f'  <text x="70" y="{166 + i * 56}" font-family="Arial, sans-serif" font-size="50" font-weight="900" fill="#111827">{esc(line)}</text>'
         for i, line in enumerate(title_lines)
     )
-    subtitle_y = 214 + (len(title_lines) - 1) * 58
+    subtitle_y = 214 + (len(title_lines) - 1) * 56
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="788" viewBox="0 0 1400 788" role="img" aria-labelledby="title desc">
   <title id="title">Day {day}: {esc(title)}</title>
   <desc id="desc">Modern blog hero graphic for {esc(title)}.</desc>
@@ -341,37 +341,61 @@ def hero_svg(topic: dict) -> str:
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="{bg}"/>
       <stop offset="0.55" stop-color="#ffffff"/>
-      <stop offset="1" stop-color="{pale}"/>
+      <stop offset="1" stop-color="#eef2ff"/>
+    </linearGradient>
+    <linearGradient id="cardGlow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="{accent}"/>
+      <stop offset="1" stop-color="{pop}"/>
+    </linearGradient>
+    <linearGradient id="darkGlow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset="1" stop-color="{dark}"/>
     </linearGradient>
     <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#0f172a" flood-opacity="0.14"/>
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#0f172a" flood-opacity="0.18"/>
     </filter>
   </defs>
   <rect width="1400" height="788" fill="url(#bg)"/>
-  <circle cx="1130" cy="130" r="160" fill="{accent}" opacity="0.18"/>
-  <circle cx="190" cy="665" r="220" fill="{accent}" opacity="0.14"/>
-  <text x="70" y="90" font-family="Arial, sans-serif" font-size="26" font-weight="800" fill="{dark}">90 DAYS OF AI • DAY {day:02d}</text>
-{title_svg}
-  <text x="73" y="{subtitle_y}" font-family="Arial, sans-serif" font-size="25" fill="#475569">{esc(category)} made practical, visual, and slightly less allergic to fun.</text>
-  <g filter="url(#shadow)">
-    <rect x="90" y="330" width="230" height="145" rx="28" fill="#ffffff" stroke="{accent}" stroke-width="3"/>
-    <rect x="405" y="290" width="230" height="225" rx="32" fill="{dark}" opacity="0.92"/>
-    <rect x="720" y="330" width="230" height="145" rx="28" fill="#ffffff" stroke="{accent}" stroke-width="3"/>
-    <rect x="1035" y="290" width="230" height="225" rx="32" fill="#111827" opacity="0.94"/>
+  <path d="M1060 -40 C1260 80 1325 250 1440 380 L1440 0 Z" fill="{accent}" opacity="0.22"/>
+  <path d="M-70 620 C150 505 295 610 415 780 L-70 780 Z" fill="{pop}" opacity="0.25"/>
+  <g opacity="0.20" stroke="{accent}" stroke-width="2">
+    <path d="M75 330 H610"/><path d="M75 570 H660"/><path d="M115 302 V612"/><path d="M520 302 V612"/>
   </g>
-  <path d="M330 402 H390" stroke="#64748b" stroke-width="8" stroke-linecap="round"/><path d="M390 402 l-22 -15 v30 z" fill="#64748b"/>
-  <path d="M650 402 H710" stroke="#64748b" stroke-width="8" stroke-linecap="round"/><path d="M710 402 l-22 -15 v30 z" fill="#64748b"/>
-  <path d="M965 402 H1025" stroke="#64748b" stroke-width="8" stroke-linecap="round"/><path d="M1025 402 l-22 -15 v30 z" fill="#64748b"/>
-  <text x="205" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="800" fill="{dark}">Understand</text>
-  <text x="205" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#475569">plain English</text>
-  <text x="520" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="800" fill="#ffffff">Apply</text>
-  <text x="520" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#dbeafe">real workflow</text>
-  <text x="835" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="800" fill="{dark}">Validate</text>
-  <text x="835" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#475569">trust, but test</text>
-  <text x="1150" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="800" fill="#ffffff">Ship</text>
-  <text x="1150" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#e5e7eb">with guardrails</text>
-  <rect x="70" y="635" width="600" height="76" rx="24" fill="#111827"/>
-  <text x="105" y="683" font-family="Arial, sans-serif" font-size="24" font-weight="800" fill="#ffffff">Useful AI, minus the buzzword fog.</text>
+  <rect x="70" y="58" width="310" height="48" rx="16" fill="#111827"/>
+  <text x="94" y="90" font-family="Arial, sans-serif" font-size="24" font-weight="900" fill="#ffffff">DAY {day:02d} / 90 DAYS OF AI</text>
+{title_svg}
+  <text x="73" y="{subtitle_y}" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#475569">{esc(category)} made visual, practical, and snackable.</text>
+  <g transform="translate(70 {subtitle_y + 34})">
+    <rect x="0" y="0" width="172" height="42" rx="15" fill="{accent}"/>
+    <text x="24" y="28" font-family="Arial, sans-serif" font-size="18" font-weight="900" fill="#ffffff">NO FLUFF</text>
+    <rect x="188" y="0" width="178" height="42" rx="15" fill="{pop}"/>
+    <text x="213" y="28" font-family="Arial, sans-serif" font-size="18" font-weight="900" fill="#111827">REAL EXAMPLES</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="90" y="400" width="245" height="142" rx="28" fill="#ffffff" stroke="{accent}" stroke-width="4"/>
+    <rect x="390" y="360" width="245" height="222" rx="34" fill="url(#cardGlow)" opacity="0.96"/>
+    <rect x="690" y="400" width="245" height="142" rx="28" fill="#ffffff" stroke="{pop}" stroke-width="4"/>
+    <rect x="990" y="360" width="245" height="222" rx="34" fill="url(#darkGlow)" opacity="0.98"/>
+  </g>
+  <g font-family="Arial, sans-serif">
+    <text x="125" y="446" font-size="26" font-weight="900" fill="{accent}">01</text>
+    <text x="212" y="462" text-anchor="middle" font-size="25" font-weight="900" fill="#111827">Learn</text>
+    <text x="212" y="499" text-anchor="middle" font-size="19" fill="#475569">plain English</text>
+    <text x="425" y="418" font-size="28" font-weight="900" fill="#ffffff">02</text>
+    <text x="512" y="472" text-anchor="middle" font-size="28" font-weight="900" fill="#ffffff">Build</text>
+    <text x="512" y="512" text-anchor="middle" font-size="20" font-weight="700" fill="#f8fafc">tiny workflow</text>
+    <text x="725" y="446" font-size="26" font-weight="900" fill="{accent}">03</text>
+    <text x="812" y="462" text-anchor="middle" font-size="25" font-weight="900" fill="#111827">Check</text>
+    <text x="812" y="499" text-anchor="middle" font-size="19" fill="#475569">trust, but test</text>
+    <text x="1025" y="418" font-size="28" font-weight="900" fill="{pop}">04</text>
+    <text x="1112" y="472" text-anchor="middle" font-size="28" font-weight="900" fill="#ffffff">Ship</text>
+    <text x="1112" y="512" text-anchor="middle" font-size="20" font-weight="700" fill="#e5e7eb">with receipts</text>
+  </g>
+  <g stroke="#111827" stroke-width="8" stroke-linecap="round" opacity="0.52">
+    <path d="M345 471 H378"/><path d="M645 471 H678"/><path d="M945 471 H978"/>
+  </g>
+  <rect x="70" y="650" width="640" height="70" rx="24" fill="#111827"/>
+  <text x="105" y="694" font-family="Arial, sans-serif" font-size="23" font-weight="900" fill="#ffffff">Useful AI, minus the buzzword fog.</text>
 </svg>
 '''
 
@@ -380,36 +404,64 @@ def flow_svg(topic: dict) -> str:
     day = topic["day"]
     title = safe_title(topic["title"])
     category = topic["category"]
-    bg, dark, accent, pale = palette(day)
+    bg, dark, accent, pop = palette(day)
     steps = framework(category)
     while len(steps) < 4:
         steps.append("Review")
+    card_specs = [
+        (90, "#ffffff", accent, "#111827", accent, "start clear"),
+        (355, accent, accent, "#ffffff", "#ffffff", "add context"),
+        (620, "#ffffff", pop, "#111827", accent, "make it work"),
+        (885, "#111827", "#111827", "#ffffff", pop, "check reality"),
+    ]
+    card_svg: list[str] = []
+    for index, (x, fill, stroke, text_fill, number_fill, caption) in enumerate(card_specs, start=1):
+        label_lines = wrap_text(steps[index - 1], max_chars=13, max_lines=2)
+        label_start_y = 350 if len(label_lines) == 1 else 340
+        labels = "\n".join(
+            f'<text x="{x + 115}" y="{label_start_y + line_index * 27}" text-anchor="middle" font-size="24" font-weight="900" fill="{text_fill}">{esc(line)}</text>'
+            for line_index, line in enumerate(label_lines)
+        )
+        card_svg.append(
+            f'''    <g filter="url(#shadow)">
+      <rect x="{x}" y="288" width="230" height="132" rx="26" fill="{fill}" stroke="{stroke}" stroke-width="4"/>
+    </g>
+    <text x="{x + 31}" y="322" font-size="24" font-weight="900" fill="{number_fill}">{index:02d}</text>
+{labels}
+    <text x="{x + 115}" y="392" text-anchor="middle" font-size="18" font-weight="700" fill="{text_fill}" opacity="0.78">{caption}</text>'''
+        )
+    cards = "\n".join(card_svg)
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
   <title id="title">Day {day} concept flow</title>
   <desc id="desc">A four-step concept flow for {esc(title)}.</desc>
-  <rect width="1200" height="675" fill="{bg}"/>
-  <rect x="55" y="55" width="1090" height="565" rx="28" fill="#ffffff" stroke="{pale}" stroke-width="3"/>
-  <text x="95" y="118" font-family="Arial, sans-serif" font-size="36" font-weight="900" fill="#111827">Day {day:02d} Flow: {esc(category)}</text>
-  <text x="95" y="158" font-family="Arial, sans-serif" font-size="21" fill="#52606d">{esc(title)}</text>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="{bg}"/>
+      <stop offset="0.60" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#eef2ff"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="15" flood-color="#0f172a" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <path d="M920 -70 C1080 40 1135 170 1240 310 L1240 -70 Z" fill="{accent}" opacity="0.20"/>
+  <path d="M-50 520 C145 430 315 505 415 720 L-50 720 Z" fill="{pop}" opacity="0.24"/>
+  <rect x="55" y="55" width="1090" height="565" rx="30" fill="#ffffff" opacity="0.82" stroke="#ffffff" stroke-width="3"/>
+  <rect x="90" y="88" width="220" height="42" rx="15" fill="#111827"/>
+  <text x="114" y="116" font-family="Arial, sans-serif" font-size="21" font-weight="900" fill="#ffffff">DAY {day:02d} FLOW</text>
+  <text x="95" y="176" font-family="Arial, sans-serif" font-size="34" font-weight="900" fill="#111827">{esc(category)}</text>
+  <text x="95" y="214" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#52606d">{esc(title)}</text>
   <g font-family="Arial, sans-serif">
-    <rect x="95" y="270" width="190" height="120" rx="22" fill="{pale}" stroke="{accent}" stroke-width="3"/>
-    <text x="190" y="320" text-anchor="middle" font-size="25" font-weight="800" fill="{dark}">1. {esc(steps[0])}</text>
-    <text x="190" y="354" text-anchor="middle" font-size="18" fill="#475569">start clear</text>
-    <rect x="365" y="270" width="190" height="120" rx="22" fill="#f8fafc" stroke="{accent}" stroke-width="3"/>
-    <text x="460" y="320" text-anchor="middle" font-size="25" font-weight="800" fill="{dark}">2. {esc(steps[1])}</text>
-    <text x="460" y="354" text-anchor="middle" font-size="18" fill="#475569">add context</text>
-    <rect x="635" y="270" width="190" height="120" rx="22" fill="{pale}" stroke="{accent}" stroke-width="3"/>
-    <text x="730" y="320" text-anchor="middle" font-size="25" font-weight="800" fill="{dark}">3. {esc(steps[2])}</text>
-    <text x="730" y="354" text-anchor="middle" font-size="18" fill="#475569">make it work</text>
-    <rect x="905" y="270" width="190" height="120" rx="22" fill="#111827" stroke="#111827" stroke-width="3"/>
-    <text x="1000" y="320" text-anchor="middle" font-size="25" font-weight="800" fill="#ffffff">4. {esc(steps[3])}</text>
-    <text x="1000" y="354" text-anchor="middle" font-size="18" fill="#e5e7eb">check reality</text>
-    <path d="M285 330 H355" stroke="#64748b" stroke-width="5" stroke-linecap="round"/><path d="M355 330 l-16 -11 v22 z" fill="#64748b"/>
-    <path d="M555 330 H625" stroke="#64748b" stroke-width="5" stroke-linecap="round"/><path d="M625 330 l-16 -11 v22 z" fill="#64748b"/>
-    <path d="M825 330 H895" stroke="#64748b" stroke-width="5" stroke-linecap="round"/><path d="M895 330 l-16 -11 v22 z" fill="#64748b"/>
+{cards}
+    <path d="M323 354 H350" stroke="#111827" stroke-width="6" stroke-linecap="round" opacity="0.45"/>
+    <path d="M588 354 H615" stroke="#111827" stroke-width="6" stroke-linecap="round" opacity="0.45"/>
+    <path d="M853 354 H880" stroke="#111827" stroke-width="6" stroke-linecap="round" opacity="0.45"/>
   </g>
-  <rect x="95" y="500" width="770" height="62" rx="18" fill="#111827"/>
-  <text x="130" y="540" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#ffffff">Builder rule: if it affects users, add validation before celebration.</text>
+  <rect x="95" y="500" width="760" height="64" rx="20" fill="#111827"/>
+  <text x="130" y="540" font-family="Arial, sans-serif" font-size="22" font-weight="900" fill="#ffffff">Builder rule: validate before celebration.</text>
+  <rect x="880" y="500" width="235" height="64" rx="20" fill="{pop}"/>
+  <text x="914" y="540" font-family="Arial, sans-serif" font-size="22" font-weight="900" fill="#111827">signal &gt; hype</text>
 </svg>
 '''
 

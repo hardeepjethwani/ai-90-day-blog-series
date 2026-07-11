@@ -5,35 +5,60 @@
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#f5f3ff"/>
       <stop offset="0.55" stop-color="#ffffff"/>
-      <stop offset="1" stop-color="#ede9fe"/>
+      <stop offset="1" stop-color="#eef2ff"/>
+    </linearGradient>
+    <linearGradient id="cardGlow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="darkGlow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset="1" stop-color="#3b0764"/>
     </linearGradient>
     <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#0f172a" flood-opacity="0.14"/>
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#0f172a" flood-opacity="0.18"/>
     </filter>
   </defs>
   <rect width="1400" height="788" fill="url(#bg)"/>
-  <circle cx="1130" cy="130" r="160" fill="#a78bfa" opacity="0.18"/>
-  <circle cx="190" cy="665" r="220" fill="#a78bfa" opacity="0.14"/>
-  <text x="70" y="90" font-family="Arial, sans-serif" font-size="26" font-weight="800" fill="#6d28d9">90 DAYS OF AI • DAY 58</text>
-  <text x="70" y="165" font-family="Arial, sans-serif" font-size="52" font-weight="900" fill="#111827">AI Regulations in 2026: What Builders Should Watch</text>
-  <text x="73" y="214" font-family="Arial, sans-serif" font-size="25" fill="#475569">AI Governance made practical, visual, and slightly less allergic to fun.</text>
-  <g filter="url(#shadow)">
-    <rect x="90" y="330" width="230" height="145" rx="28" fill="#ffffff" stroke="#a78bfa" stroke-width="3"/>
-    <rect x="405" y="290" width="230" height="225" rx="32" fill="#6d28d9" opacity="0.92"/>
-    <rect x="720" y="330" width="230" height="145" rx="28" fill="#ffffff" stroke="#a78bfa" stroke-width="3"/>
-    <rect x="1035" y="290" width="230" height="225" rx="32" fill="#111827" opacity="0.94"/>
+  <path d="M1060 -40 C1260 80 1325 250 1440 380 L1440 0 Z" fill="#8b5cf6" opacity="0.22"/>
+  <path d="M-70 620 C150 505 295 610 415 780 L-70 780 Z" fill="#22d3ee" opacity="0.25"/>
+  <g opacity="0.20" stroke="#8b5cf6" stroke-width="2">
+    <path d="M75 330 H610"/><path d="M75 570 H660"/><path d="M115 302 V612"/><path d="M520 302 V612"/>
   </g>
-  <path d="M330 402 H390" stroke="#64748b" stroke-width="8" stroke-linecap="round"/><path d="M390 402 l-22 -15 v30 z" fill="#64748b"/>
-  <path d="M650 402 H710" stroke="#64748b" stroke-width="8" stroke-linecap="round"/><path d="M710 402 l-22 -15 v30 z" fill="#64748b"/>
-  <path d="M965 402 H1025" stroke="#64748b" stroke-width="8" stroke-linecap="round"/><path d="M1025 402 l-22 -15 v30 z" fill="#64748b"/>
-  <text x="205" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="800" fill="#6d28d9">Understand</text>
-  <text x="205" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#475569">plain English</text>
-  <text x="520" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="800" fill="#ffffff">Apply</text>
-  <text x="520" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#dbeafe">real workflow</text>
-  <text x="835" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="800" fill="#6d28d9">Validate</text>
-  <text x="835" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#475569">trust, but test</text>
-  <text x="1150" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="800" fill="#ffffff">Ship</text>
-  <text x="1150" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#e5e7eb">with guardrails</text>
-  <rect x="70" y="635" width="600" height="76" rx="24" fill="#111827"/>
-  <text x="105" y="683" font-family="Arial, sans-serif" font-size="24" font-weight="800" fill="#ffffff">Useful AI, minus the buzzword fog.</text>
+  <rect x="70" y="58" width="310" height="48" rx="16" fill="#111827"/>
+  <text x="94" y="90" font-family="Arial, sans-serif" font-size="24" font-weight="900" fill="#ffffff">DAY 58 / 90 DAYS OF AI</text>
+  <text x="70" y="166" font-family="Arial, sans-serif" font-size="50" font-weight="900" fill="#111827">AI Regulations in 2026: What Builders Should</text>
+  <text x="70" y="222" font-family="Arial, sans-serif" font-size="50" font-weight="900" fill="#111827">Watch</text>
+  <text x="73" y="270" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#475569">AI Governance made visual, practical, and snackable.</text>
+  <g transform="translate(70 304)">
+    <rect x="0" y="0" width="172" height="42" rx="15" fill="#8b5cf6"/>
+    <text x="24" y="28" font-family="Arial, sans-serif" font-size="18" font-weight="900" fill="#ffffff">NO FLUFF</text>
+    <rect x="188" y="0" width="178" height="42" rx="15" fill="#22d3ee"/>
+    <text x="213" y="28" font-family="Arial, sans-serif" font-size="18" font-weight="900" fill="#111827">REAL EXAMPLES</text>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="90" y="400" width="245" height="142" rx="28" fill="#ffffff" stroke="#8b5cf6" stroke-width="4"/>
+    <rect x="390" y="360" width="245" height="222" rx="34" fill="url(#cardGlow)" opacity="0.96"/>
+    <rect x="690" y="400" width="245" height="142" rx="28" fill="#ffffff" stroke="#22d3ee" stroke-width="4"/>
+    <rect x="990" y="360" width="245" height="222" rx="34" fill="url(#darkGlow)" opacity="0.98"/>
+  </g>
+  <g font-family="Arial, sans-serif">
+    <text x="125" y="446" font-size="26" font-weight="900" fill="#8b5cf6">01</text>
+    <text x="212" y="462" text-anchor="middle" font-size="25" font-weight="900" fill="#111827">Learn</text>
+    <text x="212" y="499" text-anchor="middle" font-size="19" fill="#475569">plain English</text>
+    <text x="425" y="418" font-size="28" font-weight="900" fill="#ffffff">02</text>
+    <text x="512" y="472" text-anchor="middle" font-size="28" font-weight="900" fill="#ffffff">Build</text>
+    <text x="512" y="512" text-anchor="middle" font-size="20" font-weight="700" fill="#f8fafc">tiny workflow</text>
+    <text x="725" y="446" font-size="26" font-weight="900" fill="#8b5cf6">03</text>
+    <text x="812" y="462" text-anchor="middle" font-size="25" font-weight="900" fill="#111827">Check</text>
+    <text x="812" y="499" text-anchor="middle" font-size="19" fill="#475569">trust, but test</text>
+    <text x="1025" y="418" font-size="28" font-weight="900" fill="#22d3ee">04</text>
+    <text x="1112" y="472" text-anchor="middle" font-size="28" font-weight="900" fill="#ffffff">Ship</text>
+    <text x="1112" y="512" text-anchor="middle" font-size="20" font-weight="700" fill="#e5e7eb">with receipts</text>
+  </g>
+  <g stroke="#111827" stroke-width="8" stroke-linecap="round" opacity="0.52">
+    <path d="M345 471 H378"/><path d="M645 471 H678"/><path d="M945 471 H978"/>
+  </g>
+  <rect x="70" y="650" width="640" height="70" rx="24" fill="#111827"/>
+  <text x="105" y="694" font-family="Arial, sans-serif" font-size="23" font-weight="900" fill="#ffffff">Useful AI, minus the buzzword fog.</text>
 </svg>
